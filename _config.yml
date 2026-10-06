@@ -1,3 +1,6 @@
-theme: jekyll-theme-minimal
 title: Taxi Tycoon
-description: Мобильная игра Taxi Tycoon
+email: taxitycoon.support@gmail.com
+lang: ru
+tagline:
+  ru: Мобильная игра про собственную службу такси
+  en: A mobile game about running your own taxi company

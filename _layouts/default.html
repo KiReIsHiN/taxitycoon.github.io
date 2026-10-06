@@ -1,0 +1,49 @@
+<!doctype html>
+{%- assign lang = page.lang | default: site.lang -%}
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.tagline[lang] }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="hero">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/icon.png' | relative_url }}" alt="" width="64" height="64">
+      <span>
+        <strong>{{ site.title }}</strong>
+        <small>{{ site.tagline[lang] }}</small>
+      </span>
+    </a>
+    {%- if page.alternate %}
+    <nav class="lang" aria-label="Language">
+      <span class="{% if lang == 'ru' %}on{% endif %}">{% if lang == 'ru' %}RU{% else %}<a href="{{ page.alternate | relative_url }}" hreflang="ru">RU</a>{% endif %}</span>
+      <span class="{% if lang == 'en' %}on{% endif %}">{% if lang == 'en' %}EN{% else %}<a href="{{ page.alternate | relative_url }}" hreflang="en">EN</a>{% endif %}</span>
+    </nav>
+    {%- endif %}
+  </header>
+  <div class="checker" aria-hidden="true"></div>
+
+  <main class="card">
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>{{ site.title }} · <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  </footer>
+
+  <script>
+    // Phones show each table row as a card: label every cell with its column header.
+    document.querySelectorAll('main table').forEach(function (table) {
+      var heads = Array.prototype.map.call(table.querySelectorAll('thead th'), function (th) { return th.textContent.trim(); });
+      table.querySelectorAll('tbody tr').forEach(function (row) {
+        Array.prototype.forEach.call(row.children, function (cell, i) { cell.setAttribute('data-label', heads[i] || ''); });
+      });
+    });
+  </script>
+</body>
+</html>
