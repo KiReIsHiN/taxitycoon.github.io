@@ -10,6 +10,7 @@ layout: default
 <ul class="links">
   <li><a href="privacy-ru/">Политика конфиденциальности (RuStore)</a></li>
   <li><a href="privacy-en/">Privacy Policy (RuStore, English)</a></li>
+  <li><a href="privacy-google/">Privacy Policy (Google Play)</a></li>
 </ul>
 
 Вопросы и запросы о данных / Questions and data requests: [taxitycoon.support@gmail.com](mailto:taxitycoon.support@gmail.com)
