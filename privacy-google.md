@@ -7,9 +7,9 @@ lang: en
 
 # Taxi Tycoon Privacy Policy (Google Play)
 
-_Last updated: 13 October 2026_
+_Last updated: 17 October 2026_
 
-This Privacy Policy explains what information the mobile game **Taxi Tycoon** (the "Game") collects in its **Google Play** version, why, and what choices you have. The Game does not require an account and does not show ads. Coins and experience packs can be bought through Google Play.
+This Privacy Policy explains what information the mobile game **Taxi Tycoon** (the "Game") collects in its **Google Play** version, why, and what choices you have. The Game does not require an account. Coins and experience packs can be bought through Google Play. The Game **shows ads** from the Yandex Advertising Network: rewarded ads that you choose to watch for in-game rewards, and occasional full-screen ads between rides (never during a ride, and never for players who made a purchase).
 
 ## 1. Who is responsible for your data
 
@@ -22,7 +22,7 @@ The nickname, company name, logo, start country and all game progress you create
 
 ## 3. Data we collect and why
 
-The Game uses services of Google's **Firebase** platform (provided in the EEA, UK and Switzerland by Google Ireland Limited, and elsewhere by Google LLC). Google acts as our service provider (data processor).
+The Game uses services of Google's **Firebase** platform (provided in the EEA, UK and Switzerland by Google Ireland Limited, and elsewhere by Google LLC) and the **Yandex Advertising Network** (Yandex LLC). They act as our service providers.
 
 | Service | What is collected | Why | Legal basis (GDPR) |
 |---|---|---|---|
@@ -30,13 +30,15 @@ The Game uses services of Google's **Firebase** platform (provided in the EEA, U
 | **Firebase Crashlytics** | Crash and error reports: stack traces, device model, OS version, free memory / disk, app version, a random Crashlytics installation identifier, the device language and the number of app launches | To find and fix crashes and errors | Our **legitimate interest** in keeping the Game working (Art. 6(1)(f)) |
 | **Firebase Remote Config** | A random Firebase installation identifier and app version | To deliver game balance settings without an app update | Our **legitimate interest** in operating the Game (Art. 6(1)(f)) |
 | **Google Play Billing** | Purchases are handled by Google Play. We receive the product, price, currency and transaction id, never your payment details | To deliver the coins, experience or booster you bought | **Performance of a contract** (Art. 6(1)(b)) |
+| **Yandex Advertising Network** (Yandex Mobile Ads SDK, Yandex LLC) | The device's advertising ID (Google Advertising ID), IP address, device model, OS version, language, mobile carrier, ad impressions and clicks, approximate location derived from the IP address | To show ads (rewarded ads you choose to watch for coins, experience, kits or a tow, and full-screen ads between rides) and fund the development of the Game | Showing ads: our **legitimate interest** in funding the free Game (Art. 6(1)(f)). **Personalised** ads based on your interests: only with **your consent** (Art. 6(1)(a)) in the EEA, UK and Switzerland; without it the ads are not personalised |
 
-We do **not** collect your name, email address, phone number, contacts, photos, precise location or the advertising ID, and we do **not** sell or share your data for advertising.
+We do **not** collect your name, email address, phone number, contacts, photos or precise location, and we do **not** sell your data. Only the Yandex Advertising Network receives the advertising ID, as described above.
 
-## 4. Your choice about analytics
+## 4. Your choice about analytics and ads
 
-- **EEA, UK and Switzerland:** on first launch the Game asks whether you allow analytics. Until you answer, and if you decline, Firebase Analytics collects nothing.
-- **Everyone:** you can turn analytics on or off at any time in **Settings → Privacy → Analytics**. Turning it off stops collection and deletes the analytics data and identifier stored on your device.
+- **EEA, UK and Switzerland:** on first launch the Game asks whether you allow analytics and personalised ads. Until you answer, and if you decline, Firebase Analytics collects nothing and the ads are not personalised.
+- **Everyone:** you can turn this on or off at any time in **Settings → Privacy → Analytics and personalised ads**. Turning it off stops analytics collection, deletes the analytics data and identifier stored on your device, and stops ad personalisation.
+- You can also reset your advertising ID or opt out of personalised ads in Android settings: **Settings → Google → Ads**.
 
 Crash reports (Firebase Crashlytics) are always sent, because the Game cannot be kept working without them.
 
@@ -45,10 +47,13 @@ Crash reports (Firebase Crashlytics) are always sent, because the Game cannot be
 - Analytics data: 2 months, then deleted automatically by Google.
 - Crash reports: 90 days (Firebase Crashlytics).
 - Purchase records needed for accounting: as long as the law requires.
+- Advertising data: according to Yandex's rules (section 6).
 
 ## 6. International transfers
 
 Google may process data in the United States and other countries. Transfers from the EEA, UK and Switzerland rely on the EU-U.S. Data Privacy Framework (and its UK and Swiss extensions) and on the European Commission's Standard Contractual Clauses. See Google's privacy information: https://firebase.google.com/support/privacy and https://policies.google.com/privacy
+
+Yandex LLC processes advertising data on servers in the Russian Federation according to its own privacy terms: https://yandex.com/legal/confidential/ and https://yandex.ru/legal/mobileads_sdk_agreement/
 
 ## 7. Your rights
 
@@ -62,11 +67,11 @@ The Game is not directed to children under 16, and we do not knowingly collect p
 
 ## 9. Security
 
-Data sent to Firebase is encrypted in transit (HTTPS). Data on your device is stored in the Game's private storage.
+Data sent to Firebase and Yandex is encrypted in transit (HTTPS). Data on your device is stored in the Game's private storage.
 
 ## 10. Changes
 
-We may update this Policy, for example when the Game adds new features such as ads. The date at the top shows the latest version; important changes will also be announced in the Game.
+We may update this Policy, for example when the Game adds new features. The date at the top shows the latest version; important changes will also be announced in the Game.
 
 ## 11. Contact
 
