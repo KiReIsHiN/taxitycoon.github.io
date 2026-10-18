@@ -9,6 +9,8 @@ lang: en
 
 _Last updated: 17 October 2026_
 
+_Other languages: [Русский](ru/) · [Deutsch](de/) · [Ελληνικά](el/) · [Español](es/) · [Français](fr/) · [Magyar](hu/) · [Bahasa Indonesia](id/) · [Italiano](it/) · [日本語](ja/) · [한국어](ko/) · [Nederlands](nl/) · [Polski](pl/) · [Português (Brasil)](pt-br/) · [Svenska](sv/) · [Türkçe](tr/) · [Українська](uk/) · [Tiếng Việt](vi/) · [简体中文](zh-cn/) · [繁體中文](zh-tw/)_
+
 This Privacy Policy explains what information the mobile game **Taxi Tycoon** (the "Game") collects in its **Google Play** version, why, and what choices you have. The Game does not require an account. Coins and experience packs can be bought through Google Play. The Game **shows ads** from the Yandex Advertising Network: rewarded ads that you choose to watch for in-game rewards, and occasional full-screen ads between rides (never during a ride, and never for players who made a purchase).
 
 ## 1. Who is responsible for your data
