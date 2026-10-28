@@ -7,11 +7,13 @@ lang: vi
 
 # Chính sách quyền riêng tư của Taxi Tycoon (Google Play)
 
-_Cập nhật lần cuối: 17 tháng 10 năm 2026_
+_Cập nhật lần cuối: 28 tháng 10 năm 2026_
 
 _Đây là bản dịch của [phiên bản tiếng Anh](../). Nếu có khác biệt, phiên bản tiếng Anh được áp dụng._
 
 Chính sách quyền riêng tư này giải thích trò chơi di động **Taxi Tycoon** ("Trò chơi") thu thập những thông tin gì trong phiên bản **Google Play**, vì sao, và bạn có những lựa chọn nào. Trò chơi không yêu cầu tài khoản. Bạn có thể mua xu và gói kinh nghiệm qua Google Play. Trò chơi **hiển thị quảng cáo** từ Mạng quảng cáo Yandex: quảng cáo có thưởng mà bạn tự chọn xem để nhận phần thưởng trong Trò chơi, và đôi khi quảng cáo toàn màn hình giữa các chuyến xe (không bao giờ trong lúc chạy chuyến và không bao giờ với người chơi đã mua hàng).
+
+Khi Mạng quảng cáo Yandex không có quảng cáo, quảng cáo sẽ đến từ **Appodeal** (Appodeal Inc.), một nền tảng dàn xếp (mediation) quảng cáo chọn quảng cáo từ các mạng quảng cáo đối tác của mình.
 
 ## 1. Ai chịu trách nhiệm về dữ liệu của bạn
 
@@ -33,14 +35,16 @@ Trò chơi sử dụng các dịch vụ của nền tảng **Firebase** của Go
 | **Firebase Remote Config** | Một mã cài đặt Firebase ngẫu nhiên và phiên bản ứng dụng | Để gửi cài đặt cân bằng trò chơi mà không cần cập nhật ứng dụng | **Lợi ích hợp pháp** của chúng tôi trong việc vận hành Trò chơi (Điều 6(1)(f)) |
 | **Google Play Billing** | Việc mua hàng do Google Play xử lý. Chúng tôi nhận sản phẩm, giá, tiền tệ và mã giao dịch, không bao giờ nhận thông tin thanh toán của bạn | Để giao xu, kinh nghiệm hoặc vật phẩm tăng tốc bạn đã mua | **Thực hiện hợp đồng** (Điều 6(1)(b)) |
 | **Mạng quảng cáo Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | ID quảng cáo của thiết bị (Google Advertising ID), địa chỉ IP, mẫu thiết bị, phiên bản hệ điều hành, ngôn ngữ, nhà mạng, lượt hiển thị và lượt nhấp quảng cáo, vị trí gần đúng suy ra từ địa chỉ IP | Để hiển thị quảng cáo (quảng cáo có thưởng bạn chọn xem để nhận xu, kinh nghiệm, bộ dụng cụ hoặc xe cứu hộ, và quảng cáo toàn màn hình giữa các chuyến xe) và tài trợ cho việc phát triển Trò chơi | Hiển thị quảng cáo: **lợi ích hợp pháp** của chúng tôi trong việc tài trợ cho Trò chơi miễn phí (Điều 6(1)(f)). Quảng cáo **được cá nhân hóa** theo sở thích của bạn: chỉ khi có **sự đồng ý của bạn** (Điều 6(1)(a)) tại EEA, Vương quốc Anh và Thụy Sĩ; nếu không, quảng cáo không được cá nhân hóa |
+| **Appodeal** (Appodeal SDK, Appodeal Inc.) và các mạng quảng cáo đối tác: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | ID quảng cáo của thiết bị (Google Advertising ID), địa chỉ IP, kiểu thiết bị, phiên bản hệ điều hành, ngôn ngữ, nhà mạng, phiên bản ứng dụng, lượt hiển thị và lượt nhấp quảng cáo, vị trí gần đúng suy ra từ địa chỉ IP | Để hiển thị quảng cáo khi Mạng quảng cáo Yandex không có, và tài trợ cho việc phát triển Trò chơi | Hiển thị quảng cáo: **lợi ích hợp pháp** của chúng tôi trong việc tài trợ Trò chơi miễn phí (Điều 6(1)(f)). Quảng cáo **cá nhân hóa**: chỉ khi có **sự đồng ý của bạn** (Điều 6(1)(a)) tại EEA, Vương quốc Anh và Thụy Sĩ; nếu không, quảng cáo không được cá nhân hóa |
 
-Chúng tôi **không** thu thập tên, địa chỉ email, số điện thoại, danh bạ, ảnh hoặc vị trí chính xác của bạn, và **không** bán dữ liệu của bạn. Chỉ Mạng quảng cáo Yandex nhận ID quảng cáo, như mô tả ở trên.
+Chúng tôi **không** thu thập tên, địa chỉ email, số điện thoại, danh bạ, ảnh hoặc vị trí chính xác của bạn, và **không** bán dữ liệu của bạn. Chỉ các mạng quảng cáo nêu trên (Mạng quảng cáo Yandex, cùng Appodeal và các mạng đối tác của nó) nhận ID quảng cáo.
 
 ## 4. Lựa chọn của bạn về phân tích và quảng cáo
 
 - **EEA, Vương quốc Anh và Thụy Sĩ:** lần đầu mở, Trò chơi hỏi bạn có cho phép phân tích và quảng cáo được cá nhân hóa không. Cho đến khi bạn trả lời, và nếu bạn từ chối, Firebase Analytics không thu thập gì và quảng cáo không được cá nhân hóa.
 - **Mọi người:** bạn có thể bật hoặc tắt tùy chọn này bất cứ lúc nào trong **Cài đặt → Quyền riêng tư → Phân tích & quảng cáo cá nhân hóa**. Tắt sẽ dừng thu thập dữ liệu phân tích, xóa dữ liệu phân tích và mã định danh lưu trên thiết bị của bạn, và dừng cá nhân hóa quảng cáo.
 - Bạn cũng có thể đặt lại ID quảng cáo hoặc chọn không nhận quảng cáo được cá nhân hóa trong cài đặt Android: **Cài đặt → Google → Quảng cáo**.
+- **Quảng cáo qua Appodeal:** công tắc trong trò chơi nêu trên điều khiển quảng cáo Yandex. Appodeal và các mạng đối tác tuân theo cài đặt quảng cáo của thiết bị bạn: tắt quảng cáo cá nhân hóa hoặc xóa ID quảng cáo trong cài đặt Android, như mô tả ở mục trước. Tại EEA, Vương quốc Anh và Thụy Sĩ, Appodeal cũng có thể tự xin sự đồng ý của bạn.
 
 Báo cáo sự cố (Firebase Crashlytics) luôn được gửi, vì không có chúng thì Trò chơi không thể duy trì hoạt động.
 
@@ -49,13 +53,15 @@ Báo cáo sự cố (Firebase Crashlytics) luôn được gửi, vì không có 
 - Dữ liệu phân tích: 2 tháng, sau đó Google tự động xóa.
 - Báo cáo sự cố: 90 ngày (Firebase Crashlytics).
 - Hồ sơ mua hàng cần cho kế toán: trong thời gian luật pháp yêu cầu.
-- Dữ liệu quảng cáo: theo quy định của Yandex (mục 6).
+- Dữ liệu quảng cáo: theo quy định của Yandex và của Appodeal cùng các đối tác (mục 6).
 
 ## 6. Chuyển dữ liệu quốc tế
 
 Google có thể xử lý dữ liệu tại Hoa Kỳ và các quốc gia khác. Việc chuyển dữ liệu từ EEA, Vương quốc Anh và Thụy Sĩ dựa trên Khung bảo mật dữ liệu EU-Hoa Kỳ (Data Privacy Framework, cùng các phần mở rộng cho Vương quốc Anh và Thụy Sĩ) và các Điều khoản hợp đồng tiêu chuẩn của Ủy ban châu Âu. Thông tin quyền riêng tư của Google: https://firebase.google.com/support/privacy và https://policies.google.com/privacy
 
 Yandex LLC xử lý dữ liệu quảng cáo trên các máy chủ tại Liên bang Nga theo điều khoản quyền riêng tư của riêng mình: https://yandex.com/legal/confidential/ và https://yandex.ru/legal/mobileads_sdk_agreement/
+
+Appodeal Inc. và các mạng quảng cáo đối tác có thể xử lý dữ liệu quảng cáo tại Hoa Kỳ và các quốc gia khác theo điều khoản quyền riêng tư của họ: https://appodeal.com/privacy-policy/
 
 ## 7. Quyền của bạn
 

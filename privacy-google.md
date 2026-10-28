@@ -7,11 +7,13 @@ lang: en
 
 # Taxi Tycoon Privacy Policy (Google Play)
 
-_Last updated: 17 October 2026_
+_Last updated: 28 October 2026_
 
 _Other languages: [Русский](ru/) · [Deutsch](de/) · [Ελληνικά](el/) · [Español](es/) · [Français](fr/) · [Magyar](hu/) · [Bahasa Indonesia](id/) · [Italiano](it/) · [日本語](ja/) · [한국어](ko/) · [Nederlands](nl/) · [Polski](pl/) · [Português (Brasil)](pt-br/) · [Svenska](sv/) · [Türkçe](tr/) · [Українська](uk/) · [Tiếng Việt](vi/) · [简体中文](zh-cn/) · [繁體中文](zh-tw/)_
 
 This Privacy Policy explains what information the mobile game **Taxi Tycoon** (the "Game") collects in its **Google Play** version, why, and what choices you have. The Game does not require an account. Coins and experience packs can be bought through Google Play. The Game **shows ads** from the Yandex Advertising Network: rewarded ads that you choose to watch for in-game rewards, and occasional full-screen ads between rides (never during a ride, and never for players who made a purchase).
+
+When the Yandex Advertising Network has no ad to show, the ad comes from **Appodeal** (Appodeal Inc.), an ad mediation platform that picks it from its partner ad networks.
 
 ## 1. Who is responsible for your data
 
@@ -33,14 +35,16 @@ The Game uses services of Google's **Firebase** platform (provided in the EEA, U
 | **Firebase Remote Config** | A random Firebase installation identifier and app version | To deliver game balance settings without an app update | Our **legitimate interest** in operating the Game (Art. 6(1)(f)) |
 | **Google Play Billing** | Purchases are handled by Google Play. We receive the product, price, currency and transaction id, never your payment details | To deliver the coins, experience or booster you bought | **Performance of a contract** (Art. 6(1)(b)) |
 | **Yandex Advertising Network** (Yandex Mobile Ads SDK, Yandex LLC) | The device's advertising ID (Google Advertising ID), IP address, device model, OS version, language, mobile carrier, ad impressions and clicks, approximate location derived from the IP address | To show ads (rewarded ads you choose to watch for coins, experience, kits or a tow, and full-screen ads between rides) and fund the development of the Game | Showing ads: our **legitimate interest** in funding the free Game (Art. 6(1)(f)). **Personalised** ads based on your interests: only with **your consent** (Art. 6(1)(a)) in the EEA, UK and Switzerland; without it the ads are not personalised |
+| **Appodeal** (Appodeal SDK, Appodeal Inc.) and its partner ad networks: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | The device's advertising ID (Google Advertising ID), IP address, device model, OS version, language, mobile carrier, app version, ad impressions and clicks, approximate location derived from the IP address | To show an ad when the Yandex Advertising Network has none, and fund the development of the Game | Showing ads: our **legitimate interest** in funding the free Game (Art. 6(1)(f)). **Personalised** ads: only with **your consent** (Art. 6(1)(a)) in the EEA, UK and Switzerland; without it the ads are not personalised |
 
-We do **not** collect your name, email address, phone number, contacts, photos or precise location, and we do **not** sell your data. Only the Yandex Advertising Network receives the advertising ID, as described above.
+We do **not** collect your name, email address, phone number, contacts, photos or precise location, and we do **not** sell your data. Only the ad networks described above (the Yandex Advertising Network, and Appodeal with its partner networks) receive the advertising ID.
 
 ## 4. Your choice about analytics and ads
 
 - **EEA, UK and Switzerland:** on first launch the Game asks whether you allow analytics and personalised ads. Until you answer, and if you decline, Firebase Analytics collects nothing and the ads are not personalised.
 - **Everyone:** you can turn this on or off at any time in **Settings → Privacy → Analytics and personalised ads**. Turning it off stops analytics collection, deletes the analytics data and identifier stored on your device, and stops ad personalisation.
 - You can also reset your advertising ID or opt out of personalised ads in Android settings: **Settings → Google → Ads**.
+- **Ads delivered through Appodeal:** the in-game switch above controls the Yandex ads. Appodeal and its partner networks follow your device's advertising settings: opt out of personalised ads or delete your advertising ID in Android settings, as described in the previous point. In the EEA, UK and Switzerland, Appodeal may also ask for your consent itself.
 
 Crash reports (Firebase Crashlytics) are always sent, because the Game cannot be kept working without them.
 
@@ -49,13 +53,15 @@ Crash reports (Firebase Crashlytics) are always sent, because the Game cannot be
 - Analytics data: 2 months, then deleted automatically by Google.
 - Crash reports: 90 days (Firebase Crashlytics).
 - Purchase records needed for accounting: as long as the law requires.
-- Advertising data: according to Yandex's rules (section 6).
+- Advertising data: according to the rules of Yandex and of Appodeal and its partners (section 6).
 
 ## 6. International transfers
 
 Google may process data in the United States and other countries. Transfers from the EEA, UK and Switzerland rely on the EU-U.S. Data Privacy Framework (and its UK and Swiss extensions) and on the European Commission's Standard Contractual Clauses. See Google's privacy information: https://firebase.google.com/support/privacy and https://policies.google.com/privacy
 
 Yandex LLC processes advertising data on servers in the Russian Federation according to its own privacy terms: https://yandex.com/legal/confidential/ and https://yandex.ru/legal/mobileads_sdk_agreement/
+
+Appodeal Inc. and its partner ad networks may process advertising data in the United States and other countries according to their own privacy terms: https://appodeal.com/privacy-policy/
 
 ## 7. Your rights
 

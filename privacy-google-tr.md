@@ -7,11 +7,13 @@ lang: tr
 
 # Taxi Tycoon Gizlilik Politikası (Google Play)
 
-_Son güncelleme: 17 Ekim 2026_
+_Son güncelleme: 28 Ekim 2026_
 
 _Bu, [İngilizce sürümün](../) çevirisidir. Farklılık olması durumunda İngilizce sürüm geçerlidir._
 
 Bu Gizlilik Politikası, **Taxi Tycoon** mobil oyununun ("Oyun") **Google Play** sürümünde hangi bilgileri topladığını, neden topladığını ve hangi seçeneklere sahip olduğunu açıklar. Oyun bir hesap gerektirmez. Jetonlar ve deneyim paketleri Google Play üzerinden satın alınabilir. Oyun, Yandex Reklam Ağı'ndan **reklamlar gösterir**: oyun içi ödüller için izlemeyi kendin seçtiğin ödüllü reklamlar ve zaman zaman yolculuklar arasında tam ekran reklamlar (asla bir yolculuk sırasında değil ve asla satın alım yapmış oyunculara değil).
+
+Yandex Reklam Ağı'nda gösterilecek reklam olmadığında reklam, iş ortağı reklam ağları arasından seçim yapan bir reklam uyumlulaştırma (mediation) platformu olan **Appodeal** (Appodeal Inc.) tarafından sağlanır.
 
 ## 1. Verilerinden kim sorumlu
 
@@ -33,14 +35,16 @@ Oyun, Google'ın **Firebase** platformunun hizmetlerini (AEA, Birleşik Krallık
 | **Firebase Remote Config** | Rastgele bir Firebase kurulum kimliği ve uygulama sürümü | Oyun denge ayarlarını uygulama güncellemesi olmadan iletmek | Oyunu işletmeye yönelik **meşru menfaatimiz** (Md. 6(1)(f)) |
 | **Google Play Billing** | Satın almaları Google Play yürütür. Biz ürünü, fiyatı, para birimini ve işlem kimliğini alırız; ödeme bilgilerini asla almayız | Satın aldığın jetonları, deneyimi veya güçlendiriciyi teslim etmek | **Sözleşmenin ifası** (Md. 6(1)(b)) |
 | **Yandex Reklam Ağı** (Yandex Mobile Ads SDK, Yandex LLC) | Cihazın reklam kimliği (Google Advertising ID), IP adresi, cihaz modeli, işletim sistemi sürümü, dil, mobil operatör, reklam gösterimleri ve tıklamaları, IP adresinden çıkarılan yaklaşık konum | Reklam göstermek (jeton, deneyim, kit veya çekici karşılığında izlemeyi seçtiğin ödüllü reklamlar ve yolculuklar arasındaki tam ekran reklamlar) ve Oyunun geliştirilmesini finanse etmek | Reklam gösterimi: ücretsiz Oyunu finanse etmeye yönelik **meşru menfaatimiz** (Md. 6(1)(f)). İlgi alanlarına göre **kişiselleştirilmiş** reklamlar: AEA, Birleşik Krallık ve İsviçre'de yalnızca **senin rızanla** (Md. 6(1)(a)); rıza olmadan reklamlar kişiselleştirilmez |
+| **Appodeal** (Appodeal SDK, Appodeal Inc.) ve iş ortağı reklam ağları: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | Cihazın reklam kimliği (Google Advertising ID), IP adresi, cihaz modeli, işletim sistemi sürümü, dil, mobil operatör, uygulama sürümü, reklam gösterimleri ve tıklamaları, IP adresinden çıkarılan yaklaşık konum | Yandex Reklam Ağı'nda reklam olmadığında reklam göstermek ve Oyun'un geliştirilmesini finanse etmek | Reklam gösterme: ücretsiz Oyun'u finanse etmedeki **meşru menfaatimiz** (Madde 6(1)(f)). **Kişiselleştirilmiş** reklamlar: AEA, Birleşik Krallık ve İsviçre'de yalnızca **onayınla** (Madde 6(1)(a)); onay yoksa reklamlar kişiselleştirilmez |
 
-Adını, e-posta adresini, telefon numaranı, kişilerini, fotoğraflarını veya kesin konumunu **toplamayız** ve verilerini **satmayız**. Yukarıda açıklandığı gibi, reklam kimliğini yalnızca Yandex Reklam Ağı alır.
+Adını, e-posta adresini, telefon numaranı, kişilerini, fotoğraflarını veya kesin konumunu **toplamayız** ve verilerini **satmayız**. Reklam kimliğini yalnızca yukarıda açıklanan reklam ağları (Yandex Reklam Ağı ile Appodeal ve iş ortağı ağları) alır.
 
 ## 4. Analiz ve reklamlarla ilgili seçimin
 
 - **AEA, Birleşik Krallık ve İsviçre:** ilk açılışta Oyun, analize ve kişiselleştirilmiş reklamlara izin verip vermediğini sorar. Yanıt verene kadar ve reddedersen Firebase Analytics hiçbir şey toplamaz ve reklamlar kişiselleştirilmez.
 - **Herkes:** bunu istediğin zaman **Ayarlar → Gizlilik → Analiz ve kişiselleştirilmiş reklamlar** bölümünden açıp kapatabilirsin. Kapatmak analiz verisi toplamayı durdurur, cihazında saklanan analiz verilerini ve kimliği siler ve reklam kişiselleştirmesini durdurur.
 - Reklam kimliğini Android ayarlarından sıfırlayabilir veya kişiselleştirilmiş reklamları devre dışı bırakabilirsin: **Ayarlar → Google → Reklamlar**.
+- **Appodeal üzerinden gösterilen reklamlar:** yukarıda açıklanan oyun içi anahtar Yandex reklamlarını kontrol eder. Appodeal ve iş ortağı ağları cihazının reklam ayarlarına uyar: önceki maddede açıklandığı gibi Android ayarlarında kişiselleştirilmiş reklamları kapat veya reklam kimliğini sil. AEA, Birleşik Krallık ve İsviçre'de Appodeal onayını kendisi de isteyebilir.
 
 Çökme raporları (Firebase Crashlytics) her zaman gönderilir, çünkü bunlar olmadan Oyun çalışır durumda tutulamaz.
 
@@ -49,13 +53,15 @@ Adını, e-posta adresini, telefon numaranı, kişilerini, fotoğraflarını vey
 - Analiz verileri: 2 ay, ardından Google tarafından otomatik olarak silinir.
 - Çökme raporları: 90 gün (Firebase Crashlytics).
 - Muhasebe için gereken satın alma kayıtları: yasanın gerektirdiği süre boyunca.
-- Reklam verileri: Yandex'in kurallarına göre (bölüm 6).
+- Reklam verileri: Yandex'in ve Appodeal ile iş ortaklarının kurallarına göre (bölüm 6).
 
 ## 6. Uluslararası aktarımlar
 
 Google verileri Amerika Birleşik Devletleri'nde ve diğer ülkelerde işleyebilir. AEA, Birleşik Krallık ve İsviçre'den yapılan aktarımlar AB-ABD Veri Gizliliği Çerçevesi'ne (Data Privacy Framework ve Birleşik Krallık ile İsviçre uzantıları) ve Avrupa Komisyonu'nun Standart Sözleşme Maddelerine dayanır. Google'ın gizlilik bilgileri: https://firebase.google.com/support/privacy ve https://policies.google.com/privacy
 
 Yandex LLC reklam verilerini Rusya Federasyonu'ndaki sunucularda kendi gizlilik koşullarına göre işler: https://yandex.com/legal/confidential/ ve https://yandex.ru/legal/mobileads_sdk_agreement/
+
+Appodeal Inc. ve iş ortağı reklam ağları, reklam verilerini kendi gizlilik koşullarına göre Amerika Birleşik Devletleri'nde ve diğer ülkelerde işleyebilir: https://appodeal.com/privacy-policy/
 
 ## 7. Hakların
 

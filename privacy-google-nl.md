@@ -7,11 +7,13 @@ lang: nl
 
 # Privacybeleid van Taxi Tycoon (Google Play)
 
-_Laatst bijgewerkt: 17 oktober 2026_
+_Laatst bijgewerkt: 28 oktober 2026_
 
 _Dit is een vertaling van de [Engelse versie](../). Bij verschillen geldt de Engelse versie._
 
 Dit privacybeleid legt uit welke gegevens de mobiele game **Taxi Tycoon** (de "Game") in de **Google Play**-versie verzamelt, waarom, en welke keuzes je hebt. Voor de Game is geen account nodig. Munten en ervaringspakketten kun je via Google Play kopen. De Game **toont advertenties** van het Yandex-advertentienetwerk: advertenties met beloning die je zelf kiest te bekijken voor beloningen in de Game, en af en toe advertenties op volledig scherm tussen ritten (nooit tijdens een rit en nooit voor spelers die een aankoop hebben gedaan).
+
+Als het Yandex-advertentienetwerk geen advertentie heeft, komt de advertentie van **Appodeal** (Appodeal Inc.), een advertentiemediatieplatform dat deze kiest uit zijn partneradvertentienetwerken.
 
 ## 1. Wie verantwoordelijk is voor je gegevens
 
@@ -33,14 +35,16 @@ De Game gebruikt diensten van het **Firebase**-platform van Google (in de EER, h
 | **Firebase Remote Config** | Een willekeurige Firebase-installatie-ID en de appversie | Instellingen voor de spelbalans leveren zonder app-update | Ons **gerechtvaardigd belang** bij het exploiteren van de Game (art. 6, lid 1, onder f) |
 | **Google Play Billing** | Aankopen worden afgehandeld door Google Play. Wij ontvangen product, prijs, valuta en transactie-ID, nooit je betaalgegevens | De gekochte munten, ervaring of booster leveren | **Uitvoering van een overeenkomst** (art. 6, lid 1, onder b) |
 | **Yandex-advertentienetwerk** (Yandex Mobile Ads SDK, Yandex LLC) | De advertentie-ID van het toestel (Google Advertising ID), IP-adres, toestelmodel, versie van het besturingssysteem, taal, mobiele provider, advertentieweergaven en -klikken, geschatte locatie afgeleid uit het IP-adres | Advertenties tonen (advertenties met beloning die je kiest te bekijken voor munten, ervaring, kits of een sleepwagen, en advertenties op volledig scherm tussen ritten) en de ontwikkeling van de Game financieren | Advertenties tonen: ons **gerechtvaardigd belang** bij het financieren van de gratis Game (art. 6, lid 1, onder f). **Gepersonaliseerde** advertenties op basis van je interesses: alleen met **jouw toestemming** (art. 6, lid 1, onder a) in de EER, het Verenigd Koninkrijk en Zwitserland; zonder toestemming zijn de advertenties niet gepersonaliseerd |
+| **Appodeal** (Appodeal SDK, Appodeal Inc.) en zijn partneradvertentienetwerken: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | De advertentie-ID van het apparaat (Google Advertising ID), IP-adres, apparaatmodel, besturingssysteemversie, taal, mobiele provider, app-versie, advertentieweergaven en -klikken, geschatte locatie op basis van het IP-adres | Om een advertentie te tonen als het Yandex-advertentienetwerk er geen heeft, en de ontwikkeling van het Spel te financieren | Advertenties tonen: ons **gerechtvaardigd belang** bij het financieren van het gratis Spel (art. 6(1)(f)). **Gepersonaliseerde** advertenties: alleen met **jouw toestemming** (art. 6(1)(a)) in de EER, het VK en Zwitserland; zonder toestemming zijn de advertenties niet gepersonaliseerd |
 
-We verzamelen **niet** je naam, e-mailadres, telefoonnummer, contacten, foto's of exacte locatie, en we verkopen je gegevens **niet**. Alleen het Yandex-advertentienetwerk ontvangt de advertentie-ID, zoals hierboven beschreven.
+We verzamelen **niet** je naam, e-mailadres, telefoonnummer, contacten, foto's of exacte locatie, en we verkopen je gegevens **niet**. Alleen de hierboven beschreven advertentienetwerken (het Yandex-advertentienetwerk, en Appodeal met zijn partnernetwerken) ontvangen de advertentie-ID.
 
 ## 4. Jouw keuze over analyse en advertenties
 
 - **EER, Verenigd Koninkrijk en Zwitserland:** bij de eerste start vraagt de Game of je analyse en gepersonaliseerde advertenties toestaat. Zolang je niet hebt geantwoord, en als je weigert, verzamelt Firebase Analytics niets en zijn de advertenties niet gepersonaliseerd.
 - **Iedereen:** je kunt dit altijd aan- of uitzetten via **Instellingen → Privacy → Analyse & gepersonaliseerde advertenties**. Uitzetten stopt het verzamelen van analysegegevens, verwijdert de analysegegevens en de ID die op je toestel zijn opgeslagen, en stopt de personalisatie van advertenties.
 - Je kunt ook je advertentie-ID resetten of gepersonaliseerde advertenties uitzetten in de Android-instellingen: **Instellingen → Google → Advertenties**.
+- **Advertenties via Appodeal:** de hierboven beschreven schakelaar in het spel regelt de advertenties van Yandex. Appodeal en zijn partnernetwerken volgen de advertentie-instellingen van je apparaat: zet gepersonaliseerde advertenties uit of verwijder je advertentie-ID in de Android-instellingen, zoals beschreven in het vorige punt. In de EER, het VK en Zwitserland kan Appodeal je ook zelf om toestemming vragen.
 
 Crashrapporten (Firebase Crashlytics) worden altijd verstuurd, omdat de Game zonder deze rapporten niet goed werkend kan worden gehouden.
 
@@ -49,13 +53,15 @@ Crashrapporten (Firebase Crashlytics) worden altijd verstuurd, omdat de Game zon
 - Analysegegevens: 2 maanden, daarna automatisch verwijderd door Google.
 - Crashrapporten: 90 dagen (Firebase Crashlytics).
 - Aankoopgegevens die nodig zijn voor de boekhouding: zo lang als de wet vereist.
-- Advertentiegegevens: volgens de regels van Yandex (paragraaf 6).
+- Advertentiegegevens: volgens de regels van Yandex en van Appodeal en zijn partners (paragraaf 6).
 
 ## 6. Internationale doorgifte
 
 Google kan gegevens verwerken in de Verenigde Staten en andere landen. Doorgifte vanuit de EER, het Verenigd Koninkrijk en Zwitserland is gebaseerd op het EU-VS-kader voor gegevensbescherming (Data Privacy Framework, met de uitbreidingen voor het Verenigd Koninkrijk en Zwitserland) en op de modelcontractbepalingen van de Europese Commissie. Privacyinformatie van Google: https://firebase.google.com/support/privacy en https://policies.google.com/privacy
 
 Yandex LLC verwerkt advertentiegegevens op servers in de Russische Federatie volgens haar eigen privacyvoorwaarden: https://yandex.com/legal/confidential/ en https://yandex.ru/legal/mobileads_sdk_agreement/
+
+Appodeal Inc. en zijn partneradvertentienetwerken kunnen advertentiegegevens verwerken in de Verenigde Staten en andere landen volgens hun eigen privacyvoorwaarden: https://appodeal.com/privacy-policy/
 
 ## 7. Jouw rechten
 

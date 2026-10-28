@@ -7,11 +7,13 @@ lang: id
 
 # Kebijakan Privasi Taxi Tycoon (Google Play)
 
-_Terakhir diperbarui: 17 Oktober 2026_
+_Terakhir diperbarui: 28 Oktober 2026_
 
 _Ini adalah terjemahan dari [versi bahasa Inggris](../). Jika terdapat perbedaan, versi bahasa Inggris yang berlaku._
 
 Kebijakan Privasi ini menjelaskan informasi apa yang dikumpulkan oleh game seluler **Taxi Tycoon** ("Game") dalam versi **Google Play**, alasannya, dan pilihan apa yang kamu miliki. Game tidak memerlukan akun. Koin dan paket pengalaman dapat dibeli melalui Google Play. Game **menampilkan iklan** dari Jaringan Iklan Yandex: iklan berhadiah yang kamu pilih sendiri untuk ditonton demi hadiah dalam Game, dan sesekali iklan layar penuh di antara perjalanan (tidak pernah selama perjalanan, dan tidak pernah untuk pemain yang telah melakukan pembelian).
+
+Jika Jaringan Iklan Yandex tidak memiliki iklan, iklan ditampilkan oleh **Appodeal** (Appodeal Inc.), platform mediasi iklan yang memilihnya dari jaringan iklan mitranya.
 
 ## 1. Siapa yang bertanggung jawab atas datamu
 
@@ -33,14 +35,16 @@ Game menggunakan layanan platform **Firebase** milik Google (disediakan di EEA, 
 | **Firebase Remote Config** | ID instalasi Firebase acak dan versi aplikasi | Untuk mengirim pengaturan keseimbangan Game tanpa pembaruan aplikasi | **Kepentingan sah** kami dalam mengoperasikan Game (Pasal 6(1)(f)) |
 | **Google Play Billing** | Pembelian ditangani oleh Google Play. Kami menerima produk, harga, mata uang, dan ID transaksi, tidak pernah detail pembayaranmu | Untuk memberikan koin, pengalaman, atau booster yang kamu beli | **Pelaksanaan kontrak** (Pasal 6(1)(b)) |
 | **Jaringan Iklan Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | ID iklan perangkat (Google Advertising ID), alamat IP, model perangkat, versi OS, bahasa, operator seluler, tayangan dan klik iklan, perkiraan lokasi dari alamat IP | Untuk menampilkan iklan (iklan berhadiah yang kamu pilih untuk ditonton demi koin, pengalaman, kit, atau derek, dan iklan layar penuh di antara perjalanan) serta mendanai pengembangan Game | Menampilkan iklan: **kepentingan sah** kami untuk mendanai Game gratis (Pasal 6(1)(f)). Iklan yang **dipersonalisasi** berdasarkan minatmu: hanya dengan **persetujuanmu** (Pasal 6(1)(a)) di EEA, Inggris, dan Swiss; tanpa itu iklan tidak dipersonalisasi |
+| **Appodeal** (Appodeal SDK, Appodeal Inc.) dan jaringan iklan mitranya: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | ID iklan perangkat (Google Advertising ID), alamat IP, model perangkat, versi OS, bahasa, operator seluler, versi aplikasi, tayangan dan klik iklan, perkiraan lokasi dari alamat IP | Untuk menampilkan iklan saat Jaringan Iklan Yandex tidak memilikinya, dan mendanai pengembangan Game | Menampilkan iklan: **kepentingan sah** kami untuk mendanai Game gratis (Pasal 6(1)(f)). Iklan **yang dipersonalisasi**: hanya dengan **persetujuanmu** (Pasal 6(1)(a)) di EEA, Inggris, dan Swiss; tanpanya iklan tidak dipersonalisasi |
 
-Kami **tidak** mengumpulkan nama, alamat email, nomor telepon, kontak, foto, atau lokasi tepatmu, dan kami **tidak** menjual datamu. Hanya Jaringan Iklan Yandex yang menerima ID iklan, seperti dijelaskan di atas.
+Kami **tidak** mengumpulkan nama, alamat email, nomor telepon, kontak, foto, atau lokasi tepatmu, dan kami **tidak** menjual datamu. Hanya jaringan iklan yang dijelaskan di atas (Jaringan Iklan Yandex, serta Appodeal dengan jaringan mitranya) yang menerima ID iklan.
 
 ## 4. Pilihanmu tentang analitik dan iklan
 
 - **EEA, Inggris, dan Swiss:** saat pertama kali dibuka, Game menanyakan apakah kamu mengizinkan analitik dan iklan yang dipersonalisasi. Sampai kamu menjawab, dan jika kamu menolak, Firebase Analytics tidak mengumpulkan apa pun dan iklan tidak dipersonalisasi.
 - **Semua orang:** kamu dapat menyalakan atau mematikannya kapan saja di **Pengaturan → Privasi → Analitik & iklan yang dipersonalisasi**. Mematikannya menghentikan pengumpulan analitik, menghapus data analitik dan ID yang tersimpan di perangkatmu, serta menghentikan personalisasi iklan.
 - Kamu juga dapat mengatur ulang ID iklan atau menonaktifkan iklan yang dipersonalisasi di pengaturan Android: **Setelan → Google → Iklan**.
+- **Iklan melalui Appodeal:** sakelar dalam game yang dijelaskan di atas mengatur iklan Yandex. Appodeal dan jaringan mitranya mengikuti pengaturan iklan perangkatmu: matikan iklan yang dipersonalisasi atau hapus ID iklanmu di pengaturan Android, seperti dijelaskan pada poin sebelumnya. Di EEA, Inggris, dan Swiss, Appodeal juga dapat meminta persetujuanmu sendiri.
 
 Laporan kerusakan (Firebase Crashlytics) selalu dikirim, karena Game tidak dapat tetap berfungsi tanpanya.
 
@@ -49,13 +53,15 @@ Laporan kerusakan (Firebase Crashlytics) selalu dikirim, karena Game tidak dapat
 - Data analitik: 2 bulan, lalu dihapus otomatis oleh Google.
 - Laporan kerusakan: 90 hari (Firebase Crashlytics).
 - Catatan pembelian yang diperlukan untuk akuntansi: selama diwajibkan oleh hukum.
-- Data iklan: sesuai aturan Yandex (bagian 6).
+- Data iklan: sesuai aturan Yandex serta Appodeal dan mitranya (bagian 6).
 
 ## 6. Transfer internasional
 
 Google dapat memproses data di Amerika Serikat dan negara lain. Transfer dari EEA, Inggris, dan Swiss didasarkan pada Kerangka Privasi Data UE-AS (Data Privacy Framework, beserta perluasannya untuk Inggris dan Swiss) dan Klausul Kontrak Standar Komisi Eropa. Informasi privasi Google: https://firebase.google.com/support/privacy dan https://policies.google.com/privacy
 
 Yandex LLC memproses data iklan di server di Federasi Rusia sesuai dengan ketentuan privasinya sendiri: https://yandex.com/legal/confidential/ dan https://yandex.ru/legal/mobileads_sdk_agreement/
+
+Appodeal Inc. dan jaringan iklan mitranya dapat memproses data iklan di Amerika Serikat dan negara lain sesuai ketentuan privasi mereka sendiri: https://appodeal.com/privacy-policy/
 
 ## 7. Hak-hakmu
 

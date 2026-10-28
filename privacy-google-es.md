@@ -7,11 +7,13 @@ lang: es
 
 # Política de privacidad de Taxi Tycoon (Google Play)
 
-_Última actualización: 17 de octubre de 2026_
+_Última actualización: 28 de octubre de 2026_
 
 _Esta es una traducción de la [versión en inglés](../). En caso de discrepancia, prevalece la versión en inglés._
 
 Esta Política de privacidad explica qué información recopila el juego para móviles **Taxi Tycoon** (el «Juego») en su versión de **Google Play**, por qué, y qué opciones tienes. El Juego no requiere una cuenta. Las monedas y los paquetes de experiencia se pueden comprar a través de Google Play. El Juego **muestra anuncios** de la Red Publicitaria de Yandex: anuncios con recompensa que tú decides ver para obtener recompensas en el Juego y, de vez en cuando, anuncios a pantalla completa entre viajes (nunca durante un viaje y nunca a jugadores que hayan realizado una compra).
+
+Cuando la Red Publicitaria de Yandex no tiene un anuncio, el anuncio lo proporciona **Appodeal** (Appodeal Inc.), una plataforma de mediación publicitaria que lo elige entre sus redes publicitarias asociadas.
 
 ## 1. Quién es responsable de tus datos
 
@@ -33,14 +35,16 @@ El Juego utiliza servicios de la plataforma **Firebase** de Google (prestados en
 | **Firebase Remote Config** | Un identificador aleatorio de instalación de Firebase y la versión de la aplicación | Enviar ajustes de equilibrio del Juego sin actualizar la aplicación | Nuestro **interés legítimo** en operar el Juego (art. 6.1.f) |
 | **Google Play Billing** | Las compras las gestiona Google Play. Recibimos el producto, el precio, la moneda y el identificador de transacción, nunca tus datos de pago | Entregar las monedas, la experiencia o el potenciador que compraste | **Ejecución de un contrato** (art. 6.1.b) |
 | **Red Publicitaria de Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | El identificador de publicidad del dispositivo (Google Advertising ID), la dirección IP, el modelo del dispositivo, la versión del sistema operativo, el idioma, el operador móvil, las impresiones y clics de anuncios, la ubicación aproximada deducida de la dirección IP | Mostrar anuncios (anuncios con recompensa que decides ver a cambio de monedas, experiencia, kits o una grúa, y anuncios a pantalla completa entre viajes) y financiar el desarrollo del Juego | Mostrar anuncios: nuestro **interés legítimo** en financiar el Juego gratuito (art. 6.1.f). Anuncios **personalizados** según tus intereses: solo con **tu consentimiento** (art. 6.1.a) en el EEE, el Reino Unido y Suiza; sin él, los anuncios no se personalizan |
+| **Appodeal** (Appodeal SDK, Appodeal Inc.) y sus redes publicitarias asociadas: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | El identificador de publicidad del dispositivo (Google Advertising ID), dirección IP, modelo del dispositivo, versión del sistema operativo, idioma, operador móvil, versión de la app, impresiones y clics de anuncios, ubicación aproximada derivada de la dirección IP | Para mostrar un anuncio cuando la Red Publicitaria de Yandex no tiene ninguno, y financiar el desarrollo del Juego | Mostrar anuncios: nuestro **interés legítimo** en financiar el Juego gratuito (art. 6(1)(f)). Anuncios **personalizados**: solo con **tu consentimiento** (art. 6(1)(a)) en el EEE, el Reino Unido y Suiza; sin él, los anuncios no se personalizan |
 
-**No** recopilamos tu nombre, dirección de correo electrónico, número de teléfono, contactos, fotos ni ubicación precisa, y **no** vendemos tus datos. Solo la Red Publicitaria de Yandex recibe el identificador de publicidad, como se describe arriba.
+**No** recopilamos tu nombre, dirección de correo electrónico, número de teléfono, contactos, fotos ni ubicación precisa, y **no** vendemos tus datos. Solo las redes publicitarias descritas arriba (la Red Publicitaria de Yandex, y Appodeal con sus redes asociadas) reciben el identificador de publicidad.
 
 ## 4. Tus opciones sobre analíticas y anuncios
 
 - **EEE, Reino Unido y Suiza:** en el primer inicio, el Juego te pregunta si permites las analíticas y los anuncios personalizados. Hasta que respondas, y si lo rechazas, Firebase Analytics no recopila nada y los anuncios no se personalizan.
 - **Todos:** puedes activarlo o desactivarlo en cualquier momento en **Ajustes → Privacidad → Analíticas y anuncios personalizados**. Al desactivarlo se detiene la recopilación de analíticas, se eliminan los datos de analíticas y el identificador almacenados en tu dispositivo y se detiene la personalización de anuncios.
 - También puedes restablecer tu identificador de publicidad o desactivar los anuncios personalizados en los ajustes de Android: **Ajustes → Google → Anuncios**.
+- **Anuncios a través de Appodeal:** el interruptor del juego descrito arriba controla los anuncios de Yandex. Appodeal y sus redes asociadas siguen la configuración de publicidad de tu dispositivo: desactiva los anuncios personalizados o elimina tu identificador de publicidad en los ajustes de Android, como se describe en el punto anterior. En el EEE, el Reino Unido y Suiza, Appodeal también puede pedirte el consentimiento por sí mismo.
 
 Los informes de fallos (Firebase Crashlytics) se envían siempre, porque sin ellos no es posible mantener el Juego en funcionamiento.
 
@@ -49,13 +53,15 @@ Los informes de fallos (Firebase Crashlytics) se envían siempre, porque sin ell
 - Datos de analíticas: 2 meses; después Google los elimina automáticamente.
 - Informes de fallos: 90 días (Firebase Crashlytics).
 - Registros de compras necesarios para la contabilidad: durante el tiempo que exija la ley.
-- Datos publicitarios: según las normas de Yandex (sección 6).
+- Datos publicitarios: según las normas de Yandex y de Appodeal y sus socios (sección 6).
 
 ## 6. Transferencias internacionales
 
 Google puede tratar datos en Estados Unidos y otros países. Las transferencias desde el EEE, el Reino Unido y Suiza se basan en el Marco de Privacidad de Datos UE-EE. UU. (Data Privacy Framework, y sus extensiones para el Reino Unido y Suiza) y en las Cláusulas Contractuales Tipo de la Comisión Europea. Información de privacidad de Google: https://firebase.google.com/support/privacy y https://policies.google.com/privacy
 
 Yandex LLC trata los datos publicitarios en servidores situados en la Federación de Rusia conforme a sus propias condiciones de privacidad: https://yandex.com/legal/confidential/ y https://yandex.ru/legal/mobileads_sdk_agreement/
+
+Appodeal Inc. y sus redes publicitarias asociadas pueden tratar datos publicitarios en Estados Unidos y otros países según sus propias condiciones de privacidad: https://appodeal.com/privacy-policy/
 
 ## 7. Tus derechos
 
