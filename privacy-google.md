@@ -7,7 +7,7 @@ lang: en
 
 # Taxi Tycoon Privacy Policy (Google Play)
 
-_Last updated: 28 October 2026_
+_Last updated: 6 November 2026_
 
 _Other languages: [Русский](ru/) · [Deutsch](de/) · [Ελληνικά](el/) · [Español](es/) · [Français](fr/) · [Magyar](hu/) · [Bahasa Indonesia](id/) · [Italiano](it/) · [日本語](ja/) · [한국어](ko/) · [Nederlands](nl/) · [Polski](pl/) · [Português (Brasil)](pt-br/) · [Svenska](sv/) · [Türkçe](tr/) · [Українська](uk/) · [Tiếng Việt](vi/) · [简体中文](zh-cn/) · [繁體中文](zh-tw/)_
 
@@ -20,9 +20,9 @@ When the Yandex Advertising Network has no ad to show, the ad comes from **Appod
 The data controller is **Aliaksei Kireishyn**, an individual developer, Minsk, Republic of Belarus.
 Contact for any privacy question or request: **taxitycoon.support@gmail.com**
 
-## 2. Data that stays on your device
+## 2. Game data on your device and on our server
 
-The nickname, company name, logo, start country and all game progress you create in the Game are stored **only on your device** in the Game's save file. We do not receive them. Uninstalling the Game deletes them.
+The nickname, company name, logo, start country and all game progress are stored in the Game's save file on your device. After your first finished ride a copy of this file is also stored on our server, so you can get your progress back after reinstalling the Game or on another phone. Uninstalling the Game deletes the file on your device, not the copy on the server: see [Delete your data](/delete-data/).
 
 ## 3. Data we collect and why
 
@@ -33,11 +33,12 @@ The Game uses services of Google's **Firebase** platform (provided in the EEA, U
 | **Firebase Analytics** | A random app-instance identifier; gameplay events (for example tutorial completed, city unlocked, ride finished, level reached, coin balance, the start country you picked in the Game); in-app purchase events (product, price, currency, transaction id); device model, operating system, app version, language; approximate location (country / region) that Google derives from the IP address; Google does not store the IP address itself | To understand how the Game is played and improve its balance, content and stability | **Your consent** (Art. 6(1)(a)) in the EEA, UK and Switzerland. Elsewhere, our legitimate interest in improving the Game (Art. 6(1)(f)); you can switch it off at any time |
 | **Firebase Crashlytics** | Crash and error reports: stack traces, device model, OS version, free memory / disk, app version, a random Crashlytics installation identifier, the device language and the number of app launches | To find and fix crashes and errors | Our **legitimate interest** in keeping the Game working (Art. 6(1)(f)) |
 | **Firebase Remote Config** | A random Firebase installation identifier and app version | To deliver game balance settings without an app update | Our **legitimate interest** in operating the Game (Art. 6(1)(f)) |
+| **Cloud saves** (our server on Cloudflare) | A copy of your save file (nickname, company name, logo, game progress, settings), a player ID, a recovery code, a hash of the device identifier, the Play Games player ID if you sign in, app version, store, the IP address while a request is handled | To bring your progress back after a reinstall or on another phone, and to fix problems at your request | **Performance of a contract** (Art. 6(1)(b)) |
 | **Google Play Billing** | Purchases are handled by Google Play. We receive the product, price, currency and transaction id, never your payment details | To deliver the coins, experience or booster you bought | **Performance of a contract** (Art. 6(1)(b)) |
 | **Yandex Advertising Network** (Yandex Mobile Ads SDK, Yandex LLC) | The device's advertising ID (Google Advertising ID), IP address, device model, OS version, language, mobile carrier, ad impressions and clicks, approximate location derived from the IP address | To show ads (rewarded ads you choose to watch for coins, experience, kits or a tow, and full-screen ads between rides) and fund the development of the Game | Showing ads: our **legitimate interest** in funding the free Game (Art. 6(1)(f)). **Personalised** ads based on your interests: only with **your consent** (Art. 6(1)(a)) in the EEA, UK and Switzerland; without it the ads are not personalised |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) and its partner ad networks: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | The device's advertising ID (Google Advertising ID), IP address, device model, OS version, language, mobile carrier, app version, ad impressions and clicks, approximate location derived from the IP address | To show an ad when the Yandex Advertising Network has none, and fund the development of the Game | Showing ads: our **legitimate interest** in funding the free Game (Art. 6(1)(f)). **Personalised** ads: only with **your consent** (Art. 6(1)(a)) in the EEA, UK and Switzerland; without it the ads are not personalised |
 
-We do **not** collect your name, email address, phone number, contacts, photos or precise location, and we do **not** sell your data. Only the ad networks described above (the Yandex Advertising Network, and Appodeal with its partner networks) receive the advertising ID.
+We do **not** collect your real name, email address, phone number, contacts, photos or precise location, and we do **not** sell your data. Only the ad networks described above (the Yandex Advertising Network, and Appodeal with its partner networks) receive the advertising ID.
 
 ## 4. Your choice about analytics and ads
 
@@ -54,6 +55,7 @@ Crash reports (Firebase Crashlytics) are always sent, because the Game cannot be
 - Crash reports: 90 days (Firebase Crashlytics).
 - Purchase records needed for accounting: as long as the law requires.
 - Advertising data: according to the rules of Yandex and of Appodeal and its partners (section 6).
+- Cloud saves: until you ask us to delete them. If the server storage is nearly full, we delete players who have not played for over 12 months.
 
 ## 6. International transfers
 
@@ -63,9 +65,11 @@ Yandex LLC processes advertising data on servers in the Russian Federation accor
 
 Appodeal Inc. and its partner ad networks may process advertising data in the United States and other countries according to their own privacy terms: https://appodeal.com/privacy-policy/
 
+Cloud saves are handled by Cloudflare, Inc., which may process data in the United States and other countries: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Your rights
 
-Depending on where you live (for example under the GDPR or UK GDPR) you have the right to access, correct or delete your data, to restrict or object to its processing, to data portability, and to withdraw your consent at any time (withdrawing does not affect earlier processing). Write to **taxitycoon.support@gmail.com**. Because the Game has no accounts, we may ask you for details that let us find your data (for example the approximate date you played and your device model). We answer within one month.
+Depending on where you live (for example under the GDPR or UK GDPR) you have the right to access, correct or delete your data, to restrict or object to its processing, to data portability, and to withdraw your consent at any time (withdrawing does not affect earlier processing). Write to **taxitycoon.support@gmail.com**. We may ask for your player ID (in Settings) or for details that let us find your data. We answer within one month. To delete your account and cloud saves, use **Settings → Data → Request data deletion** or follow [these steps](/delete-data/).
 
 You also have the right to lodge a complaint with a data protection authority, in particular in the country where you live.
 
@@ -75,7 +79,7 @@ The Game is not directed to children under 16, and we do not knowingly collect p
 
 ## 9. Security
 
-Data sent to Firebase and Yandex is encrypted in transit (HTTPS). Data on your device is stored in the Game's private storage.
+Data sent to Firebase and Yandex is encrypted in transit (HTTPS). Data on your device is stored in the Game's private storage. Cloud saves are sent over HTTPS too.
 
 ## 10. Changes
 

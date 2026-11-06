@@ -7,7 +7,7 @@ lang: nl
 
 # Privacybeleid van Taxi Tycoon (Google Play)
 
-_Laatst bijgewerkt: 28 oktober 2026_
+_Laatst bijgewerkt: 6 november 2026_
 
 _Dit is een vertaling van de [Engelse versie](../). Bij verschillen geldt de Engelse versie._
 
@@ -20,9 +20,9 @@ Als het Yandex-advertentienetwerk geen advertentie heeft, komt de advertentie va
 De verwerkingsverantwoordelijke is **Aliaksei Kireishyn**, zelfstandig ontwikkelaar, Minsk, Republiek Belarus.
 Contact voor alle vragen en verzoeken over privacy: **taxitycoon.support@gmail.com**
 
-## 2. Gegevens die op je toestel blijven
+## 2. Spelgegevens op je toestel en op onze server
 
-De bijnaam, bedrijfsnaam, het logo, het startland en alle spelvoortgang die je in de Game aanmaakt, worden **alleen op je toestel** opgeslagen in het opslagbestand van de Game. Wij ontvangen ze niet. Als je de Game verwijdert, worden ze gewist.
+De bijnaam, bedrijfsnaam, het logo, het startland en alle voortgang worden opgeslagen in het opslagbestand op je toestel. Na je eerste voltooide rit wordt ook een kopie van dit bestand op onze server bewaard, zodat je je voortgang terugkrijgt na een herinstallatie of op een andere telefoon. De Game verwijderen wist het bestand op je toestel, niet de kopie op de server: zie [Je gegevens wissen](/delete-data/).
 
 ## 3. Welke gegevens we verzamelen en waarom
 
@@ -33,11 +33,12 @@ De Game gebruikt diensten van het **Firebase**-platform van Google (in de EER, h
 | **Firebase Analytics** | Een willekeurige app-instantie-ID; spelgebeurtenissen (bijvoorbeeld tutorial voltooid, stad ontgrendeld, rit voltooid, level bereikt, muntsaldo, het startland dat je in de Game hebt gekozen); gebeurtenissen van in-app-aankopen (product, prijs, valuta, transactie-ID); toestelmodel, besturingssysteem, appversie, taal; geschatte locatie (land / regio) die Google afleidt uit het IP-adres; Google slaat het IP-adres zelf niet op | Begrijpen hoe de Game wordt gespeeld en de balans, inhoud en stabiliteit verbeteren | **Jouw toestemming** (art. 6, lid 1, onder a) in de EER, het Verenigd Koninkrijk en Zwitserland. Elders ons gerechtvaardigd belang bij het verbeteren van de Game (art. 6, lid 1, onder f); je kunt het altijd uitzetten |
 | **Firebase Crashlytics** | Crash- en foutrapporten: stacktraces, toestelmodel, versie van het besturingssysteem, vrij geheugen / vrije schijfruimte, appversie, een willekeurige Crashlytics-installatie-ID, de taal van het toestel en het aantal keren dat de app is gestart | Crashes en fouten vinden en oplossen | Ons **gerechtvaardigd belang** bij een werkende Game (art. 6, lid 1, onder f) |
 | **Firebase Remote Config** | Een willekeurige Firebase-installatie-ID en de appversie | Instellingen voor de spelbalans leveren zonder app-update | Ons **gerechtvaardigd belang** bij het exploiteren van de Game (art. 6, lid 1, onder f) |
+| **Cloudopslag** (onze server bij Cloudflare) | Een kopie van je opslagbestand (bijnaam, bedrijfsnaam, logo, voortgang, instellingen), een speler-ID, een herstelcode, een hash van de toestel-ID, de Play Games-speler-ID als je inlogt, app-versie, winkel, het IP-adres tijdens het afhandelen van een verzoek | Om je voortgang terug te zetten na een herinstallatie of op een andere telefoon en op jouw verzoek problemen op te lossen | **Uitvoering van een overeenkomst** (art. 6(1)(b)) |
 | **Google Play Billing** | Aankopen worden afgehandeld door Google Play. Wij ontvangen product, prijs, valuta en transactie-ID, nooit je betaalgegevens | De gekochte munten, ervaring of booster leveren | **Uitvoering van een overeenkomst** (art. 6, lid 1, onder b) |
 | **Yandex-advertentienetwerk** (Yandex Mobile Ads SDK, Yandex LLC) | De advertentie-ID van het toestel (Google Advertising ID), IP-adres, toestelmodel, versie van het besturingssysteem, taal, mobiele provider, advertentieweergaven en -klikken, geschatte locatie afgeleid uit het IP-adres | Advertenties tonen (advertenties met beloning die je kiest te bekijken voor munten, ervaring, kits of een sleepwagen, en advertenties op volledig scherm tussen ritten) en de ontwikkeling van de Game financieren | Advertenties tonen: ons **gerechtvaardigd belang** bij het financieren van de gratis Game (art. 6, lid 1, onder f). **Gepersonaliseerde** advertenties op basis van je interesses: alleen met **jouw toestemming** (art. 6, lid 1, onder a) in de EER, het Verenigd Koninkrijk en Zwitserland; zonder toestemming zijn de advertenties niet gepersonaliseerd |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) en zijn partneradvertentienetwerken: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | De advertentie-ID van het apparaat (Google Advertising ID), IP-adres, apparaatmodel, besturingssysteemversie, taal, mobiele provider, app-versie, advertentieweergaven en -klikken, geschatte locatie op basis van het IP-adres | Om een advertentie te tonen als het Yandex-advertentienetwerk er geen heeft, en de ontwikkeling van het Spel te financieren | Advertenties tonen: ons **gerechtvaardigd belang** bij het financieren van het gratis Spel (art. 6(1)(f)). **Gepersonaliseerde** advertenties: alleen met **jouw toestemming** (art. 6(1)(a)) in de EER, het VK en Zwitserland; zonder toestemming zijn de advertenties niet gepersonaliseerd |
 
-We verzamelen **niet** je naam, e-mailadres, telefoonnummer, contacten, foto's of exacte locatie, en we verkopen je gegevens **niet**. Alleen de hierboven beschreven advertentienetwerken (het Yandex-advertentienetwerk, en Appodeal met zijn partnernetwerken) ontvangen de advertentie-ID.
+We verzamelen **niet** je echte naam, e-mailadres, telefoonnummer, contacten, foto's of exacte locatie, en we verkopen je gegevens **niet**. Alleen de hierboven beschreven advertentienetwerken (het Yandex-advertentienetwerk, en Appodeal met zijn partnernetwerken) ontvangen de advertentie-ID.
 
 ## 4. Jouw keuze over analyse en advertenties
 
@@ -54,6 +55,7 @@ Crashrapporten (Firebase Crashlytics) worden altijd verstuurd, omdat de Game zon
 - Crashrapporten: 90 dagen (Firebase Crashlytics).
 - Aankoopgegevens die nodig zijn voor de boekhouding: zo lang als de wet vereist.
 - Advertentiegegevens: volgens de regels van Yandex en van Appodeal en zijn partners (paragraaf 6).
+- Cloudopslag: totdat je vraagt om verwijdering. Als de serveropslag bijna vol is, verwijderen we spelers die meer dan 12 maanden niet hebben gespeeld.
 
 ## 6. Internationale doorgifte
 
@@ -63,9 +65,11 @@ Yandex LLC verwerkt advertentiegegevens op servers in de Russische Federatie vol
 
 Appodeal Inc. en zijn partneradvertentienetwerken kunnen advertentiegegevens verwerken in de Verenigde Staten en andere landen volgens hun eigen privacyvoorwaarden: https://appodeal.com/privacy-policy/
 
+Cloudopslag wordt verzorgd door Cloudflare, Inc., dat gegevens kan verwerken in de Verenigde Staten en andere landen: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Jouw rechten
 
-Afhankelijk van waar je woont (bijvoorbeeld onder de AVG of de UK GDPR) heb je het recht op inzage, rectificatie of wissing van je gegevens, op beperking van of bezwaar tegen de verwerking, op overdraagbaarheid van gegevens, en het recht om je toestemming op elk moment in te trekken (intrekking heeft geen invloed op eerdere verwerking). Schrijf naar **taxitycoon.support@gmail.com**. Omdat de Game geen accounts heeft, kunnen we je vragen om gegevens waarmee we je informatie kunnen vinden (bijvoorbeeld de geschatte datum waarop je speelde en je toestelmodel). We antwoorden binnen een maand.
+Afhankelijk van waar je woont (bijvoorbeeld onder de AVG of de UK GDPR) heb je het recht op inzage, rectificatie of wissing van je gegevens, op beperking van of bezwaar tegen de verwerking, op overdraagbaarheid van gegevens, en het recht om je toestemming op elk moment in te trekken (intrekking heeft geen invloed op eerdere verwerking). Schrijf naar **taxitycoon.support@gmail.com**. We kunnen je vragen om je speler-ID (in Instellingen) of om gegevens waarmee we je informatie kunnen vinden. We antwoorden binnen een maand. Om je account en cloudopslag te wissen, gebruik je **Instellingen → Gegevens → Gegevens laten wissen** of volg je [deze stappen](/delete-data/).
 
 Je hebt ook het recht een klacht in te dienen bij een toezichthouder voor gegevensbescherming, met name in het land waar je woont (in Nederland de Autoriteit Persoonsgegevens).
 
@@ -75,7 +79,7 @@ De Game is niet bedoeld voor kinderen jonger dan 16 jaar, en we verzamelen niet 
 
 ## 9. Beveiliging
 
-Gegevens die naar Firebase en Yandex worden verstuurd, zijn tijdens de overdracht versleuteld (HTTPS). Gegevens op je toestel worden opgeslagen in de privéopslag van de Game.
+Gegevens die naar Firebase en Yandex worden verstuurd, zijn tijdens de overdracht versleuteld (HTTPS). Gegevens op je toestel worden opgeslagen in de privéopslag van de Game. Ook cloudopslag wordt via HTTPS verzonden.
 
 ## 10. Wijzigingen
 

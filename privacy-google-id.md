@@ -7,7 +7,7 @@ lang: id
 
 # Kebijakan Privasi Taxi Tycoon (Google Play)
 
-_Terakhir diperbarui: 28 Oktober 2026_
+_Terakhir diperbarui: 6 November 2026_
 
 _Ini adalah terjemahan dari [versi bahasa Inggris](../). Jika terdapat perbedaan, versi bahasa Inggris yang berlaku._
 
@@ -20,9 +20,9 @@ Jika Jaringan Iklan Yandex tidak memiliki iklan, iklan ditampilkan oleh **Appode
 Pengendali data adalah **Aliaksei Kireishyn**, pengembang perorangan, Minsk, Republik Belarus.
 Kontak untuk setiap pertanyaan atau permintaan terkait privasi: **taxitycoon.support@gmail.com**
 
-## 2. Data yang tetap ada di perangkatmu
+## 2. Data game di perangkatmu dan di server kami
 
-Nama panggilan, nama perusahaan, logo, negara awal, dan semua kemajuan permainan yang kamu buat di Game disimpan **hanya di perangkatmu** dalam file simpanan Game. Kami tidak menerimanya. Menghapus instalasi Game akan menghapusnya.
+Nama panggilan, nama perusahaan, logo, negara awal, dan seluruh progres disimpan dalam file simpanan di perangkatmu. Setelah perjalanan pertama selesai, salinan file ini juga disimpan di server kami agar kamu bisa memulihkan progres setelah memasang ulang Game atau di ponsel lain. Mencopot Game menghapus file di perangkat, bukan salinan di server: lihat [Hapus datamu](/delete-data/).
 
 ## 3. Data yang kami kumpulkan dan alasannya
 
@@ -33,11 +33,12 @@ Game menggunakan layanan platform **Firebase** milik Google (disediakan di EEA, 
 | **Firebase Analytics** | ID instance aplikasi acak; peristiwa permainan (misalnya tutorial selesai, kota dibuka, perjalanan selesai, level tercapai, saldo koin, negara awal yang kamu pilih di Game); peristiwa pembelian dalam aplikasi (produk, harga, mata uang, ID transaksi); model perangkat, sistem operasi, versi aplikasi, bahasa; perkiraan lokasi (negara / wilayah) yang ditentukan Google dari alamat IP; Google tidak menyimpan alamat IP itu sendiri | Untuk memahami cara Game dimainkan dan meningkatkan keseimbangan, konten, dan stabilitasnya | **Persetujuanmu** (Pasal 6(1)(a)) di EEA, Inggris, dan Swiss. Di tempat lain, kepentingan sah kami untuk meningkatkan Game (Pasal 6(1)(f)); kamu dapat mematikannya kapan saja |
 | **Firebase Crashlytics** | Laporan kerusakan dan kesalahan: jejak tumpukan (stack trace), model perangkat, versi OS, memori / ruang disk kosong, versi aplikasi, ID instalasi Crashlytics acak, bahasa perangkat, dan jumlah peluncuran aplikasi | Untuk menemukan dan memperbaiki kerusakan dan kesalahan | **Kepentingan sah** kami agar Game tetap berfungsi (Pasal 6(1)(f)) |
 | **Firebase Remote Config** | ID instalasi Firebase acak dan versi aplikasi | Untuk mengirim pengaturan keseimbangan Game tanpa pembaruan aplikasi | **Kepentingan sah** kami dalam mengoperasikan Game (Pasal 6(1)(f)) |
+| **Simpanan cloud** (server kami di Cloudflare) | Salinan file simpanan (nama panggilan, nama perusahaan, logo, progres, pengaturan), ID pemain, kode pemulihan, hash pengenal perangkat, ID pemain Play Games jika kamu masuk, versi aplikasi, toko, alamat IP selama permintaan diproses | Untuk memulihkan progres setelah pemasangan ulang atau di ponsel lain, dan memperbaiki masalah atas permintaanmu | **Pelaksanaan kontrak** (Pasal 6(1)(b)) |
 | **Google Play Billing** | Pembelian ditangani oleh Google Play. Kami menerima produk, harga, mata uang, dan ID transaksi, tidak pernah detail pembayaranmu | Untuk memberikan koin, pengalaman, atau booster yang kamu beli | **Pelaksanaan kontrak** (Pasal 6(1)(b)) |
 | **Jaringan Iklan Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | ID iklan perangkat (Google Advertising ID), alamat IP, model perangkat, versi OS, bahasa, operator seluler, tayangan dan klik iklan, perkiraan lokasi dari alamat IP | Untuk menampilkan iklan (iklan berhadiah yang kamu pilih untuk ditonton demi koin, pengalaman, kit, atau derek, dan iklan layar penuh di antara perjalanan) serta mendanai pengembangan Game | Menampilkan iklan: **kepentingan sah** kami untuk mendanai Game gratis (Pasal 6(1)(f)). Iklan yang **dipersonalisasi** berdasarkan minatmu: hanya dengan **persetujuanmu** (Pasal 6(1)(a)) di EEA, Inggris, dan Swiss; tanpa itu iklan tidak dipersonalisasi |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) dan jaringan iklan mitranya: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | ID iklan perangkat (Google Advertising ID), alamat IP, model perangkat, versi OS, bahasa, operator seluler, versi aplikasi, tayangan dan klik iklan, perkiraan lokasi dari alamat IP | Untuk menampilkan iklan saat Jaringan Iklan Yandex tidak memilikinya, dan mendanai pengembangan Game | Menampilkan iklan: **kepentingan sah** kami untuk mendanai Game gratis (Pasal 6(1)(f)). Iklan **yang dipersonalisasi**: hanya dengan **persetujuanmu** (Pasal 6(1)(a)) di EEA, Inggris, dan Swiss; tanpanya iklan tidak dipersonalisasi |
 
-Kami **tidak** mengumpulkan nama, alamat email, nomor telepon, kontak, foto, atau lokasi tepatmu, dan kami **tidak** menjual datamu. Hanya jaringan iklan yang dijelaskan di atas (Jaringan Iklan Yandex, serta Appodeal dengan jaringan mitranya) yang menerima ID iklan.
+Kami **tidak** mengumpulkan nama asli, alamat email, nomor telepon, kontak, foto, atau lokasi tepatmu, dan kami **tidak** menjual datamu. Hanya jaringan iklan yang dijelaskan di atas (Jaringan Iklan Yandex, serta Appodeal dengan jaringan mitranya) yang menerima ID iklan.
 
 ## 4. Pilihanmu tentang analitik dan iklan
 
@@ -54,6 +55,7 @@ Laporan kerusakan (Firebase Crashlytics) selalu dikirim, karena Game tidak dapat
 - Laporan kerusakan: 90 hari (Firebase Crashlytics).
 - Catatan pembelian yang diperlukan untuk akuntansi: selama diwajibkan oleh hukum.
 - Data iklan: sesuai aturan Yandex serta Appodeal dan mitranya (bagian 6).
+- Simpanan cloud: sampai kamu meminta penghapusannya. Jika penyimpanan server hampir penuh, kami menghapus pemain yang tidak bermain lebih dari 12 bulan.
 
 ## 6. Transfer internasional
 
@@ -63,9 +65,11 @@ Yandex LLC memproses data iklan di server di Federasi Rusia sesuai dengan ketent
 
 Appodeal Inc. dan jaringan iklan mitranya dapat memproses data iklan di Amerika Serikat dan negara lain sesuai ketentuan privasi mereka sendiri: https://appodeal.com/privacy-policy/
 
+Simpanan cloud ditangani oleh Cloudflare, Inc., yang dapat memproses data di Amerika Serikat dan negara lain: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Hak-hakmu
 
-Tergantung tempat tinggalmu (misalnya berdasarkan GDPR, UK GDPR, atau UU PDP di Indonesia), kamu berhak mengakses, memperbaiki, atau menghapus datamu, membatasi atau menolak pemrosesannya, atas portabilitas data, dan menarik persetujuanmu kapan saja (penarikan tidak memengaruhi pemrosesan sebelumnya). Tulis ke **taxitycoon.support@gmail.com**. Karena Game tidak memiliki akun, kami mungkin meminta detail yang memungkinkan kami menemukan datamu (misalnya perkiraan tanggal kamu bermain dan model perangkatmu). Kami menjawab dalam waktu satu bulan.
+Tergantung tempat tinggalmu (misalnya berdasarkan GDPR, UK GDPR, atau UU PDP di Indonesia), kamu berhak mengakses, memperbaiki, atau menghapus datamu, membatasi atau menolak pemrosesannya, atas portabilitas data, dan menarik persetujuanmu kapan saja (penarikan tidak memengaruhi pemrosesan sebelumnya). Tulis ke **taxitycoon.support@gmail.com**. Kami mungkin meminta ID pemainmu (di Pengaturan) atau detail yang memungkinkan kami menemukan datamu. Kami menjawab dalam waktu satu bulan. Untuk menghapus akun dan simpanan cloud, buka **Pengaturan → Data → Minta penghapusan data** atau ikuti [langkah-langkah ini](/delete-data/).
 
 Kamu juga berhak mengajukan pengaduan kepada otoritas perlindungan data, terutama di negara tempat kamu tinggal.
 
@@ -75,7 +79,7 @@ Game tidak ditujukan untuk anak-anak di bawah 16 tahun, dan kami tidak dengan se
 
 ## 9. Keamanan
 
-Data yang dikirim ke Firebase dan Yandex dienkripsi selama pengiriman (HTTPS). Data di perangkatmu disimpan di penyimpanan pribadi Game.
+Data yang dikirim ke Firebase dan Yandex dienkripsi selama pengiriman (HTTPS). Data di perangkatmu disimpan di penyimpanan pribadi Game. Simpanan cloud juga dikirim melalui HTTPS.
 
 ## 10. Perubahan
 

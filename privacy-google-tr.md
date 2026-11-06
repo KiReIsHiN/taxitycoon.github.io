@@ -7,7 +7,7 @@ lang: tr
 
 # Taxi Tycoon Gizlilik Politikası (Google Play)
 
-_Son güncelleme: 28 Ekim 2026_
+_Son güncelleme: 6 Kasım 2026_
 
 _Bu, [İngilizce sürümün](../) çevirisidir. Farklılık olması durumunda İngilizce sürüm geçerlidir._
 
@@ -20,9 +20,9 @@ Yandex Reklam Ağı'nda gösterilecek reklam olmadığında reklam, iş ortağı
 Veri sorumlusu, bireysel geliştirici **Aliaksei Kireishyn**'dir, Minsk, Belarus Cumhuriyeti.
 Gizlilikle ilgili tüm soru ve talepler için iletişim: **taxitycoon.support@gmail.com**
 
-## 2. Cihazında kalan veriler
+## 2. Cihazındaki ve sunucumuzdaki oyun verileri
 
-Oyunda oluşturduğun takma ad, şirket adı, logo, başlangıç ülkesi ve tüm oyun ilerlemesi **yalnızca cihazında**, Oyun'un kayıt dosyasında saklanır. Bunları biz almayız. Oyunu kaldırmak bunları siler.
+Takma ad, şirket adı, logo, başlangıç ülkesi ve tüm ilerleme cihazındaki kayıt dosyasında saklanır. İlk yolculuğunu tamamladıktan sonra, yeniden yükleme sonrasında veya başka bir telefonda ilerlemeni geri alabilmen için bu dosyanın bir kopyası sunucumuzda da saklanır. Oyunu kaldırmak cihazdaki dosyayı siler, sunucudaki kopyayı silmez: bkz. [Verilerini sil](/delete-data/).
 
 ## 3. Hangi verileri neden topluyoruz
 
@@ -33,11 +33,12 @@ Oyun, Google'ın **Firebase** platformunun hizmetlerini (AEA, Birleşik Krallık
 | **Firebase Analytics** | Rastgele bir uygulama örneği kimliği; oyun olayları (örneğin eğitim tamamlandı, şehir açıldı, yolculuk bitti, seviyeye ulaşıldı, jeton bakiyesi, Oyunda seçtiğin başlangıç ülkesi); uygulama içi satın alma olayları (ürün, fiyat, para birimi, işlem kimliği); cihaz modeli, işletim sistemi, uygulama sürümü, dil; Google'ın IP adresinden çıkardığı yaklaşık konum (ülke / bölge); Google IP adresinin kendisini saklamaz | Oyunun nasıl oynandığını anlamak ve dengesini, içeriğini ve kararlılığını iyileştirmek | AEA, Birleşik Krallık ve İsviçre'de **senin rızan** (Md. 6(1)(a)). Diğer yerlerde Oyunu iyileştirmeye yönelik meşru menfaatimiz (Md. 6(1)(f)); istediğin zaman kapatabilirsin |
 | **Firebase Crashlytics** | Çökme ve hata raporları: yığın izleri, cihaz modeli, işletim sistemi sürümü, boş bellek / disk alanı, uygulama sürümü, rastgele bir Crashlytics kurulum kimliği, cihaz dili ve uygulamanın açılma sayısı | Çökmeleri ve hataları bulup düzeltmek | Oyunun çalışır durumda kalmasına yönelik **meşru menfaatimiz** (Md. 6(1)(f)) |
 | **Firebase Remote Config** | Rastgele bir Firebase kurulum kimliği ve uygulama sürümü | Oyun denge ayarlarını uygulama güncellemesi olmadan iletmek | Oyunu işletmeye yönelik **meşru menfaatimiz** (Md. 6(1)(f)) |
+| **Bulut kayıtları** (Cloudflare'daki sunucumuz) | Kayıt dosyasının bir kopyası (takma ad, şirket adı, logo, ilerleme, ayarlar), oyuncu kimliği, kurtarma kodu, cihaz tanımlayıcısının karması, giriş yaparsan Play Games oyuncu kimliği, uygulama sürümü, mağaza, istek işlenirken IP adresi | Yeniden yükleme sonrasında veya başka bir telefonda ilerlemeni geri getirmek ve isteğin üzerine sorunları çözmek için | **Sözleşmenin ifası** (md. 6(1)(b)) |
 | **Google Play Billing** | Satın almaları Google Play yürütür. Biz ürünü, fiyatı, para birimini ve işlem kimliğini alırız; ödeme bilgilerini asla almayız | Satın aldığın jetonları, deneyimi veya güçlendiriciyi teslim etmek | **Sözleşmenin ifası** (Md. 6(1)(b)) |
 | **Yandex Reklam Ağı** (Yandex Mobile Ads SDK, Yandex LLC) | Cihazın reklam kimliği (Google Advertising ID), IP adresi, cihaz modeli, işletim sistemi sürümü, dil, mobil operatör, reklam gösterimleri ve tıklamaları, IP adresinden çıkarılan yaklaşık konum | Reklam göstermek (jeton, deneyim, kit veya çekici karşılığında izlemeyi seçtiğin ödüllü reklamlar ve yolculuklar arasındaki tam ekran reklamlar) ve Oyunun geliştirilmesini finanse etmek | Reklam gösterimi: ücretsiz Oyunu finanse etmeye yönelik **meşru menfaatimiz** (Md. 6(1)(f)). İlgi alanlarına göre **kişiselleştirilmiş** reklamlar: AEA, Birleşik Krallık ve İsviçre'de yalnızca **senin rızanla** (Md. 6(1)(a)); rıza olmadan reklamlar kişiselleştirilmez |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) ve iş ortağı reklam ağları: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | Cihazın reklam kimliği (Google Advertising ID), IP adresi, cihaz modeli, işletim sistemi sürümü, dil, mobil operatör, uygulama sürümü, reklam gösterimleri ve tıklamaları, IP adresinden çıkarılan yaklaşık konum | Yandex Reklam Ağı'nda reklam olmadığında reklam göstermek ve Oyun'un geliştirilmesini finanse etmek | Reklam gösterme: ücretsiz Oyun'u finanse etmedeki **meşru menfaatimiz** (Madde 6(1)(f)). **Kişiselleştirilmiş** reklamlar: AEA, Birleşik Krallık ve İsviçre'de yalnızca **onayınla** (Madde 6(1)(a)); onay yoksa reklamlar kişiselleştirilmez |
 
-Adını, e-posta adresini, telefon numaranı, kişilerini, fotoğraflarını veya kesin konumunu **toplamayız** ve verilerini **satmayız**. Reklam kimliğini yalnızca yukarıda açıklanan reklam ağları (Yandex Reklam Ağı ile Appodeal ve iş ortağı ağları) alır.
+Gerçek adını, e-posta adresini, telefon numaranı, kişilerini, fotoğraflarını veya kesin konumunu **toplamayız** ve verilerini **satmayız**. Reklam kimliğini yalnızca yukarıda açıklanan reklam ağları (Yandex Reklam Ağı ile Appodeal ve iş ortağı ağları) alır.
 
 ## 4. Analiz ve reklamlarla ilgili seçimin
 
@@ -54,6 +55,7 @@ Adını, e-posta adresini, telefon numaranı, kişilerini, fotoğraflarını vey
 - Çökme raporları: 90 gün (Firebase Crashlytics).
 - Muhasebe için gereken satın alma kayıtları: yasanın gerektirdiği süre boyunca.
 - Reklam verileri: Yandex'in ve Appodeal ile iş ortaklarının kurallarına göre (bölüm 6).
+- Bulut kayıtları: silinmesini isteyene kadar. Sunucu alanı neredeyse dolarsa 12 aydan uzun süredir oynamayan oyuncuları sileriz.
 
 ## 6. Uluslararası aktarımlar
 
@@ -63,9 +65,11 @@ Yandex LLC reklam verilerini Rusya Federasyonu'ndaki sunucularda kendi gizlilik 
 
 Appodeal Inc. ve iş ortağı reklam ağları, reklam verilerini kendi gizlilik koşullarına göre Amerika Birleşik Devletleri'nde ve diğer ülkelerde işleyebilir: https://appodeal.com/privacy-policy/
 
+Bulut kayıtlarını, verileri ABD ve diğer ülkelerde işleyebilen Cloudflare, Inc. yönetir: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Hakların
 
-Nerede yaşadığına bağlı olarak (örneğin GDPR, UK GDPR veya Türkiye'de KVKK kapsamında) verilerine erişme, bunları düzeltme veya silme, işlenmesini kısıtlama veya itiraz etme, veri taşınabilirliği ve rızanı istediğin zaman geri çekme hakkına sahipsin (geri çekme, önceki işlemeyi etkilemez). **taxitycoon.support@gmail.com** adresine yaz. Oyunda hesap olmadığından, verilerini bulmamızı sağlayacak bilgiler isteyebiliriz (örneğin yaklaşık oynadığın tarih ve cihaz modelin). Bir ay içinde yanıt veririz.
+Nerede yaşadığına bağlı olarak (örneğin GDPR, UK GDPR veya Türkiye'de KVKK kapsamında) verilerine erişme, bunları düzeltme veya silme, işlenmesini kısıtlama veya itiraz etme, veri taşınabilirliği ve rızanı istediğin zaman geri çekme hakkına sahipsin (geri çekme, önceki işlemeyi etkilemez). **taxitycoon.support@gmail.com** adresine yaz. Oyuncu kimliğini (Ayarlar'da) veya verilerini bulmamızı sağlayacak bilgileri isteyebiliriz. Bir ay içinde yanıt veririz. Hesabını ve bulut kayıtlarını silmek için **Ayarlar → Veriler → Veri silme talebi** bölümünü kullan veya [bu adımları](/delete-data/) izle.
 
 Ayrıca, özellikle yaşadığın ülkedeki bir veri koruma otoritesine şikâyette bulunma hakkın da vardır.
 
@@ -75,7 +79,7 @@ Oyun 16 yaşından küçük çocuklara yönelik değildir ve onlardan bilerek ki
 
 ## 9. Güvenlik
 
-Firebase'e ve Yandex'e gönderilen veriler aktarım sırasında şifrelenir (HTTPS). Cihazındaki veriler Oyunun özel depolama alanında saklanır.
+Firebase'e ve Yandex'e gönderilen veriler aktarım sırasında şifrelenir (HTTPS). Cihazındaki veriler Oyunun özel depolama alanında saklanır. Bulut kayıtları da HTTPS üzerinden gönderilir.
 
 ## 10. Değişiklikler
 

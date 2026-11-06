@@ -7,7 +7,7 @@ lang: de
 
 # Datenschutzerklärung von Taxi Tycoon (Google Play)
 
-_Zuletzt aktualisiert: 28. Oktober 2026_
+_Zuletzt aktualisiert: 6. November 2026_
 
 _Dies ist eine Übersetzung der [englischen Fassung](../). Bei Abweichungen gilt die englische Fassung._
 
@@ -20,9 +20,9 @@ Wenn das Yandex-Werbenetzwerk keine Anzeige hat, kommt die Anzeige von **Appodea
 Verantwortlicher ist **Aliaksei Kireishyn**, Einzelentwickler, Minsk, Republik Belarus.
 Kontakt für alle Fragen und Anfragen zum Datenschutz: **taxitycoon.support@gmail.com**
 
-## 2. Daten, die auf deinem Gerät bleiben
+## 2. Spieldaten auf deinem Gerät und auf unserem Server
 
-Der Spitzname, der Firmenname, das Logo, das Startland und der gesamte Spielfortschritt, die du im Spiel erstellst, werden **nur auf deinem Gerät** in der Speicherdatei des Spiels gespeichert. Wir erhalten sie nicht. Wenn du das Spiel deinstallierst, werden sie gelöscht.
+Spitzname, Firmenname, Logo, Startland und der gesamte Spielfortschritt werden in der Spielstanddatei auf deinem Gerät gespeichert. Nach deiner ersten beendeten Fahrt wird eine Kopie dieser Datei auch auf unserem Server gespeichert, damit du deinen Fortschritt nach einer Neuinstallation oder auf einem anderen Handy zurückbekommst. Das Deinstallieren des Spiels löscht die Datei auf dem Gerät, nicht die Kopie auf dem Server: siehe [Daten löschen](/delete-data/).
 
 ## 3. Welche Daten wir erheben und warum
 
@@ -33,11 +33,12 @@ Das Spiel nutzt Dienste der Plattform **Firebase** von Google (im EWR, im Verein
 | **Firebase Analytics** | Eine zufällige App-Instanz-ID; Spielereignisse (zum Beispiel Tutorial abgeschlossen, Stadt freigeschaltet, Fahrt beendet, Stufe erreicht, Münzstand, das im Spiel gewählte Startland); Ereignisse zu In-App-Käufen (Produkt, Preis, Währung, Transaktions-ID); Gerätemodell, Betriebssystem, App-Version, Sprache; ungefährer Standort (Land / Region), den Google aus der IP-Adresse ableitet; die IP-Adresse selbst speichert Google nicht | Um zu verstehen, wie das Spiel gespielt wird, und Balance, Inhalte und Stabilität zu verbessern | **Deine Einwilligung** (Art. 6 Abs. 1 lit. a) im EWR, im Vereinigten Königreich und in der Schweiz. Anderswo unser berechtigtes Interesse an der Verbesserung des Spiels (Art. 6 Abs. 1 lit. f); du kannst es jederzeit ausschalten |
 | **Firebase Crashlytics** | Absturz- und Fehlerberichte: Stacktraces, Gerätemodell, Betriebssystemversion, freier Arbeits- / Speicherplatz, App-Version, eine zufällige Crashlytics-Installations-ID, die Gerätesprache und die Anzahl der App-Starts | Um Abstürze und Fehler zu finden und zu beheben | Unser **berechtigtes Interesse** daran, dass das Spiel funktioniert (Art. 6 Abs. 1 lit. f) |
 | **Firebase Remote Config** | Eine zufällige Firebase-Installations-ID und die App-Version | Um Einstellungen der Spielbalance ohne App-Update bereitzustellen | Unser **berechtigtes Interesse** am Betrieb des Spiels (Art. 6 Abs. 1 lit. f) |
+| **Cloud-Spielstände** (unser Server bei Cloudflare) | Eine Kopie deiner Spielstanddatei (Spitzname, Firmenname, Logo, Spielfortschritt, Einstellungen), eine Spieler-ID, ein Wiederherstellungscode, ein Hash der Gerätekennung, die Play-Games-Spieler-ID, wenn du dich anmeldest, App-Version, Store, die IP-Adresse während der Bearbeitung einer Anfrage | Um deinen Fortschritt nach einer Neuinstallation oder auf einem anderen Handy wiederherzustellen und Probleme auf deine Bitte hin zu beheben | **Vertragserfüllung** (Art. 6 Abs. 1 lit. b) |
 | **Google Play Billing** | Käufe werden von Google Play abgewickelt. Wir erhalten Produkt, Preis, Währung und Transaktions-ID, niemals deine Zahlungsdaten | Um die gekauften Münzen, Erfahrung oder den Booster bereitzustellen | **Vertragserfüllung** (Art. 6 Abs. 1 lit. b) |
 | **Yandex-Werbenetzwerk** (Yandex Mobile Ads SDK, Yandex LLC) | Die Werbe-ID des Geräts (Google Advertising ID), IP-Adresse, Gerätemodell, Betriebssystemversion, Sprache, Mobilfunkanbieter, Werbeeinblendungen und -klicks, ungefährer Standort aus der IP-Adresse | Um Werbung zu zeigen (Werbung mit Belohnung, die du für Münzen, Erfahrung, Kits oder einen Abschleppwagen ansiehst, und Vollbildwerbung zwischen Fahrten) und die Entwicklung des Spiels zu finanzieren | Anzeige von Werbung: unser **berechtigtes Interesse** an der Finanzierung des kostenlosen Spiels (Art. 6 Abs. 1 lit. f). **Personalisierte** Werbung nach deinen Interessen: nur mit **deiner Einwilligung** (Art. 6 Abs. 1 lit. a) im EWR, im Vereinigten Königreich und in der Schweiz; ohne sie ist die Werbung nicht personalisiert |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) und seine Partner-Werbenetzwerke: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | Die Werbe-ID des Geräts (Google Advertising ID), IP-Adresse, Gerätemodell, OS-Version, Sprache, Mobilfunkanbieter, App-Version, Anzeigenimpressionen und -klicks, ungefährer Standort aus der IP-Adresse | Um eine Anzeige zu zeigen, wenn das Yandex-Werbenetzwerk keine hat, und die Entwicklung des Spiels zu finanzieren | Anzeigen zeigen: unser **berechtigtes Interesse** an der Finanzierung des kostenlosen Spiels (Art. 6 Abs. 1 lit. f). **Personalisierte** Werbung: nur mit **deiner Einwilligung** (Art. 6 Abs. 1 lit. a) im EWR, im Vereinigten Königreich und in der Schweiz; ohne sie ist die Werbung nicht personalisiert |
 
-Wir erheben **nicht** deinen Namen, deine E-Mail-Adresse, Telefonnummer, Kontakte, Fotos oder deinen genauen Standort, und wir verkaufen deine Daten **nicht**. Nur die oben beschriebenen Werbenetzwerke (das Yandex-Werbenetzwerk sowie Appodeal mit seinen Partnernetzwerken) erhalten die Werbe-ID.
+Wir erheben **nicht** deinen echten Namen, deine E-Mail-Adresse, Telefonnummer, Kontakte, Fotos oder deinen genauen Standort, und wir verkaufen deine Daten **nicht**. Nur die oben beschriebenen Werbenetzwerke (das Yandex-Werbenetzwerk sowie Appodeal mit seinen Partnernetzwerken) erhalten die Werbe-ID.
 
 ## 4. Deine Wahl bei Analyse und Werbung
 
@@ -54,6 +55,7 @@ Absturzberichte (Firebase Crashlytics) werden immer gesendet, weil das Spiel ohn
 - Absturzberichte: 90 Tage (Firebase Crashlytics).
 - Für die Buchhaltung erforderliche Kaufbelege: so lange, wie es das Gesetz verlangt.
 - Werbedaten: nach den Regeln von Yandex sowie von Appodeal und seinen Partnern (Abschnitt 6).
+- Cloud-Spielstände: bis du ihre Löschung verlangst. Ist der Serverspeicher fast voll, löschen wir Spieler, die länger als 12 Monate nicht gespielt haben.
 
 ## 6. Internationale Übermittlungen
 
@@ -63,9 +65,11 @@ Yandex LLC verarbeitet Werbedaten auf Servern in der Russischen Föderation nach
 
 Appodeal Inc. und seine Partner-Werbenetzwerke können Werbedaten in den Vereinigten Staaten und anderen Ländern nach ihren eigenen Datenschutzbestimmungen verarbeiten: https://appodeal.com/privacy-policy/
 
+Cloud-Spielstände werden von Cloudflare, Inc. verarbeitet, die Daten in den USA und anderen Ländern verarbeiten kann: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Deine Rechte
 
-Je nachdem, wo du lebst (zum Beispiel nach der DSGVO oder der UK GDPR), hast du das Recht auf Auskunft, Berichtigung oder Löschung deiner Daten, auf Einschränkung der Verarbeitung oder Widerspruch dagegen, auf Datenübertragbarkeit sowie das Recht, deine Einwilligung jederzeit zu widerrufen (der Widerruf berührt die frühere Verarbeitung nicht). Schreib an **taxitycoon.support@gmail.com**. Da das Spiel keine Konten hat, bitten wir dich eventuell um Angaben, mit denen wir deine Daten finden können (zum Beispiel das ungefähre Datum, an dem du gespielt hast, und dein Gerätemodell). Wir antworten innerhalb eines Monats.
+Je nachdem, wo du lebst (zum Beispiel nach der DSGVO oder der UK GDPR), hast du das Recht auf Auskunft, Berichtigung oder Löschung deiner Daten, auf Einschränkung der Verarbeitung oder Widerspruch dagegen, auf Datenübertragbarkeit sowie das Recht, deine Einwilligung jederzeit zu widerrufen (der Widerruf berührt die frühere Verarbeitung nicht). Schreib an **taxitycoon.support@gmail.com**. Wir bitten dich eventuell um deine Spieler-ID (in den Einstellungen) oder um Angaben, mit denen wir deine Daten finden können. Wir antworten innerhalb eines Monats. Um dein Konto und deine Cloud-Spielstände zu löschen, nutze **Einstellungen → Daten → Datenlöschung anfordern** oder folge [diesen Schritten](/delete-data/).
 
 Du hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren, insbesondere in dem Land, in dem du lebst.
 
@@ -75,7 +79,7 @@ Das Spiel richtet sich nicht an Kinder unter 16 Jahren, und wir erheben wissentl
 
 ## 9. Sicherheit
 
-Daten, die an Firebase und Yandex gesendet werden, sind bei der Übertragung verschlüsselt (HTTPS). Daten auf deinem Gerät werden im privaten Speicher des Spiels abgelegt.
+Daten, die an Firebase und Yandex gesendet werden, sind bei der Übertragung verschlüsselt (HTTPS). Daten auf deinem Gerät werden im privaten Speicher des Spiels abgelegt. Auch Cloud-Spielstände werden über HTTPS übertragen.
 
 ## 10. Änderungen
 

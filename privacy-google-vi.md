@@ -7,7 +7,7 @@ lang: vi
 
 # Chính sách quyền riêng tư của Taxi Tycoon (Google Play)
 
-_Cập nhật lần cuối: 28 tháng 10 năm 2026_
+_Cập nhật lần cuối: 6 tháng 11 năm 2026_
 
 _Đây là bản dịch của [phiên bản tiếng Anh](../). Nếu có khác biệt, phiên bản tiếng Anh được áp dụng._
 
@@ -20,9 +20,9 @@ Khi Mạng quảng cáo Yandex không có quảng cáo, quảng cáo sẽ đến
 Bên kiểm soát dữ liệu là **Aliaksei Kireishyn**, nhà phát triển cá nhân, Minsk, Cộng hòa Belarus.
 Liên hệ cho mọi câu hỏi hoặc yêu cầu về quyền riêng tư: **taxitycoon.support@gmail.com**
 
-## 2. Dữ liệu ở lại trên thiết bị của bạn
+## 2. Dữ liệu trò chơi trên thiết bị của bạn và trên máy chủ của chúng tôi
 
-Biệt danh, tên công ty, logo, quốc gia khởi đầu và toàn bộ tiến trình chơi bạn tạo trong Trò chơi được lưu **chỉ trên thiết bị của bạn**, trong tệp lưu của Trò chơi. Chúng tôi không nhận được chúng. Gỡ cài đặt Trò chơi sẽ xóa chúng.
+Biệt danh, tên công ty, logo, quốc gia khởi đầu và toàn bộ tiến trình được lưu trong tệp lưu trên thiết bị của bạn. Sau chuyến đầu tiên hoàn thành, một bản sao của tệp này cũng được lưu trên máy chủ của chúng tôi để bạn có thể lấy lại tiến trình sau khi cài lại Trò chơi hoặc trên điện thoại khác. Gỡ Trò chơi sẽ xóa tệp trên thiết bị, không xóa bản sao trên máy chủ: xem [Xóa dữ liệu của bạn](/delete-data/).
 
 ## 3. Dữ liệu chúng tôi thu thập và lý do
 
@@ -33,11 +33,12 @@ Trò chơi sử dụng các dịch vụ của nền tảng **Firebase** của Go
 | **Firebase Analytics** | Một mã định danh phiên bản ứng dụng ngẫu nhiên; sự kiện trong trò chơi (ví dụ hoàn thành hướng dẫn, mở khóa thành phố, kết thúc chuyến xe, đạt cấp độ, số dư xu, quốc gia khởi đầu bạn chọn trong Trò chơi); sự kiện mua hàng trong ứng dụng (sản phẩm, giá, tiền tệ, mã giao dịch); mẫu thiết bị, hệ điều hành, phiên bản ứng dụng, ngôn ngữ; vị trí gần đúng (quốc gia / khu vực) mà Google suy ra từ địa chỉ IP; Google không lưu chính địa chỉ IP | Để hiểu cách Trò chơi được chơi và cải thiện cân bằng, nội dung và độ ổn định | **Sự đồng ý của bạn** (Điều 6(1)(a)) tại EEA, Vương quốc Anh và Thụy Sĩ. Ở nơi khác, lợi ích hợp pháp của chúng tôi trong việc cải thiện Trò chơi (Điều 6(1)(f)); bạn có thể tắt bất cứ lúc nào |
 | **Firebase Crashlytics** | Báo cáo sự cố và lỗi: dấu vết ngăn xếp, mẫu thiết bị, phiên bản hệ điều hành, bộ nhớ / dung lượng trống, phiên bản ứng dụng, một mã cài đặt Crashlytics ngẫu nhiên, ngôn ngữ thiết bị và số lần mở ứng dụng | Để tìm và sửa sự cố và lỗi | **Lợi ích hợp pháp** của chúng tôi trong việc duy trì hoạt động của Trò chơi (Điều 6(1)(f)) |
 | **Firebase Remote Config** | Một mã cài đặt Firebase ngẫu nhiên và phiên bản ứng dụng | Để gửi cài đặt cân bằng trò chơi mà không cần cập nhật ứng dụng | **Lợi ích hợp pháp** của chúng tôi trong việc vận hành Trò chơi (Điều 6(1)(f)) |
+| **Bản lưu đám mây** (máy chủ của chúng tôi trên Cloudflare) | Bản sao tệp lưu (biệt danh, tên công ty, logo, tiến trình, cài đặt), ID người chơi, mã khôi phục, giá trị băm của mã định danh thiết bị, ID người chơi Play Games nếu bạn đăng nhập, phiên bản ứng dụng, cửa hàng, địa chỉ IP trong khi xử lý yêu cầu | Để lấy lại tiến trình sau khi cài lại hoặc trên điện thoại khác và khắc phục sự cố theo yêu cầu của bạn | **Thực hiện hợp đồng** (Điều 6(1)(b)) |
 | **Google Play Billing** | Việc mua hàng do Google Play xử lý. Chúng tôi nhận sản phẩm, giá, tiền tệ và mã giao dịch, không bao giờ nhận thông tin thanh toán của bạn | Để giao xu, kinh nghiệm hoặc vật phẩm tăng tốc bạn đã mua | **Thực hiện hợp đồng** (Điều 6(1)(b)) |
 | **Mạng quảng cáo Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | ID quảng cáo của thiết bị (Google Advertising ID), địa chỉ IP, mẫu thiết bị, phiên bản hệ điều hành, ngôn ngữ, nhà mạng, lượt hiển thị và lượt nhấp quảng cáo, vị trí gần đúng suy ra từ địa chỉ IP | Để hiển thị quảng cáo (quảng cáo có thưởng bạn chọn xem để nhận xu, kinh nghiệm, bộ dụng cụ hoặc xe cứu hộ, và quảng cáo toàn màn hình giữa các chuyến xe) và tài trợ cho việc phát triển Trò chơi | Hiển thị quảng cáo: **lợi ích hợp pháp** của chúng tôi trong việc tài trợ cho Trò chơi miễn phí (Điều 6(1)(f)). Quảng cáo **được cá nhân hóa** theo sở thích của bạn: chỉ khi có **sự đồng ý của bạn** (Điều 6(1)(a)) tại EEA, Vương quốc Anh và Thụy Sĩ; nếu không, quảng cáo không được cá nhân hóa |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) và các mạng quảng cáo đối tác: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | ID quảng cáo của thiết bị (Google Advertising ID), địa chỉ IP, kiểu thiết bị, phiên bản hệ điều hành, ngôn ngữ, nhà mạng, phiên bản ứng dụng, lượt hiển thị và lượt nhấp quảng cáo, vị trí gần đúng suy ra từ địa chỉ IP | Để hiển thị quảng cáo khi Mạng quảng cáo Yandex không có, và tài trợ cho việc phát triển Trò chơi | Hiển thị quảng cáo: **lợi ích hợp pháp** của chúng tôi trong việc tài trợ Trò chơi miễn phí (Điều 6(1)(f)). Quảng cáo **cá nhân hóa**: chỉ khi có **sự đồng ý của bạn** (Điều 6(1)(a)) tại EEA, Vương quốc Anh và Thụy Sĩ; nếu không, quảng cáo không được cá nhân hóa |
 
-Chúng tôi **không** thu thập tên, địa chỉ email, số điện thoại, danh bạ, ảnh hoặc vị trí chính xác của bạn, và **không** bán dữ liệu của bạn. Chỉ các mạng quảng cáo nêu trên (Mạng quảng cáo Yandex, cùng Appodeal và các mạng đối tác của nó) nhận ID quảng cáo.
+Chúng tôi **không** thu thập tên thật, địa chỉ email, số điện thoại, danh bạ, ảnh hoặc vị trí chính xác của bạn, và **không** bán dữ liệu của bạn. Chỉ các mạng quảng cáo nêu trên (Mạng quảng cáo Yandex, cùng Appodeal và các mạng đối tác của nó) nhận ID quảng cáo.
 
 ## 4. Lựa chọn của bạn về phân tích và quảng cáo
 
@@ -54,6 +55,7 @@ Báo cáo sự cố (Firebase Crashlytics) luôn được gửi, vì không có 
 - Báo cáo sự cố: 90 ngày (Firebase Crashlytics).
 - Hồ sơ mua hàng cần cho kế toán: trong thời gian luật pháp yêu cầu.
 - Dữ liệu quảng cáo: theo quy định của Yandex và của Appodeal cùng các đối tác (mục 6).
+- Bản lưu đám mây: cho đến khi bạn yêu cầu xóa. Nếu dung lượng máy chủ gần đầy, chúng tôi xóa những người chơi không chơi trên 12 tháng.
 
 ## 6. Chuyển dữ liệu quốc tế
 
@@ -63,9 +65,11 @@ Yandex LLC xử lý dữ liệu quảng cáo trên các máy chủ tại Liên b
 
 Appodeal Inc. và các mạng quảng cáo đối tác có thể xử lý dữ liệu quảng cáo tại Hoa Kỳ và các quốc gia khác theo điều khoản quyền riêng tư của họ: https://appodeal.com/privacy-policy/
 
+Bản lưu đám mây do Cloudflare, Inc. xử lý, công ty này có thể xử lý dữ liệu tại Hoa Kỳ và các quốc gia khác: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Quyền của bạn
 
-Tùy theo nơi bạn sống (ví dụ theo GDPR hoặc UK GDPR), bạn có quyền truy cập, chỉnh sửa hoặc xóa dữ liệu của mình, hạn chế hoặc phản đối việc xử lý, quyền di chuyển dữ liệu và quyền rút lại sự đồng ý bất cứ lúc nào (việc rút lại không ảnh hưởng đến việc xử lý trước đó). Hãy viết thư đến **taxitycoon.support@gmail.com**. Vì Trò chơi không có tài khoản, chúng tôi có thể hỏi bạn một số thông tin giúp tìm dữ liệu của bạn (ví dụ ngày gần đúng bạn chơi và mẫu thiết bị). Chúng tôi trả lời trong vòng một tháng.
+Tùy theo nơi bạn sống (ví dụ theo GDPR hoặc UK GDPR), bạn có quyền truy cập, chỉnh sửa hoặc xóa dữ liệu của mình, hạn chế hoặc phản đối việc xử lý, quyền di chuyển dữ liệu và quyền rút lại sự đồng ý bất cứ lúc nào (việc rút lại không ảnh hưởng đến việc xử lý trước đó). Hãy viết thư đến **taxitycoon.support@gmail.com**. Chúng tôi có thể hỏi ID người chơi của bạn (trong Cài đặt) hoặc thông tin giúp tìm dữ liệu của bạn. Chúng tôi trả lời trong vòng một tháng. Để xóa tài khoản và bản lưu đám mây, hãy mở **Cài đặt → Dữ liệu → Yêu cầu xóa dữ liệu** hoặc làm theo [các bước này](/delete-data/).
 
 Bạn cũng có quyền khiếu nại với cơ quan bảo vệ dữ liệu, đặc biệt là tại quốc gia bạn sinh sống.
 
@@ -75,7 +79,7 @@ Trò chơi không dành cho trẻ em dưới 16 tuổi và chúng tôi không c�
 
 ## 9. Bảo mật
 
-Dữ liệu gửi đến Firebase và Yandex được mã hóa khi truyền (HTTPS). Dữ liệu trên thiết bị của bạn được lưu trong bộ nhớ riêng của Trò chơi.
+Dữ liệu gửi đến Firebase và Yandex được mã hóa khi truyền (HTTPS). Dữ liệu trên thiết bị của bạn được lưu trong bộ nhớ riêng của Trò chơi. Bản lưu đám mây cũng được gửi qua HTTPS.
 
 ## 10. Thay đổi
 

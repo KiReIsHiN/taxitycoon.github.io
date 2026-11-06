@@ -7,7 +7,7 @@ lang: es
 
 # Política de privacidad de Taxi Tycoon (Google Play)
 
-_Última actualización: 28 de octubre de 2026_
+_Última actualización: 6 de noviembre de 2026_
 
 _Esta es una traducción de la [versión en inglés](../). En caso de discrepancia, prevalece la versión en inglés._
 
@@ -20,9 +20,9 @@ Cuando la Red Publicitaria de Yandex no tiene un anuncio, el anuncio lo proporci
 El responsable del tratamiento es **Aliaksei Kireishyn**, desarrollador independiente, Minsk, República de Belarús.
 Contacto para cualquier pregunta o solicitud sobre privacidad: **taxitycoon.support@gmail.com**
 
-## 2. Datos que permanecen en tu dispositivo
+## 2. Datos del juego en tu dispositivo y en nuestro servidor
 
-El apodo, el nombre de la empresa, el logotipo, el país de inicio y todo el progreso que creas en el Juego se guardan **solo en tu dispositivo**, en el archivo de guardado del Juego. No los recibimos. Al desinstalar el Juego se eliminan.
+El apodo, el nombre de la empresa, el logotipo, el país inicial y todo el progreso se guardan en el archivo de partida de tu dispositivo. Tras tu primer viaje terminado, también se guarda una copia de ese archivo en nuestro servidor, para que puedas recuperar tu progreso al reinstalar el Juego o en otro teléfono. Desinstalar el Juego borra el archivo del dispositivo, no la copia del servidor: consulta [Borrar tus datos](/delete-data/).
 
 ## 3. Datos que recopilamos y por qué
 
@@ -33,11 +33,12 @@ El Juego utiliza servicios de la plataforma **Firebase** de Google (prestados en
 | **Firebase Analytics** | Un identificador aleatorio de la instancia de la aplicación; eventos de juego (por ejemplo, tutorial completado, ciudad desbloqueada, viaje terminado, nivel alcanzado, saldo de monedas, el país de inicio que elegiste en el Juego); eventos de compras en la aplicación (producto, precio, moneda, identificador de transacción); modelo del dispositivo, sistema operativo, versión de la aplicación, idioma; ubicación aproximada (país / región) que Google deduce de la dirección IP; Google no almacena la dirección IP en sí | Entender cómo se juega al Juego y mejorar su equilibrio, contenido y estabilidad | **Tu consentimiento** (art. 6.1.a) en el EEE, el Reino Unido y Suiza. En el resto del mundo, nuestro interés legítimo en mejorar el Juego (art. 6.1.f); puedes desactivarlo en cualquier momento |
 | **Firebase Crashlytics** | Informes de fallos y errores: trazas de pila, modelo del dispositivo, versión del sistema operativo, memoria / disco libres, versión de la aplicación, un identificador aleatorio de instalación de Crashlytics, el idioma del dispositivo y el número de inicios de la aplicación | Encontrar y corregir fallos y errores | Nuestro **interés legítimo** en mantener el Juego en funcionamiento (art. 6.1.f) |
 | **Firebase Remote Config** | Un identificador aleatorio de instalación de Firebase y la versión de la aplicación | Enviar ajustes de equilibrio del Juego sin actualizar la aplicación | Nuestro **interés legítimo** en operar el Juego (art. 6.1.f) |
+| **Partidas en la nube** (nuestro servidor en Cloudflare) | Una copia de tu archivo de partida (apodo, nombre de la empresa, logotipo, progreso, ajustes), un ID de jugador, un código de recuperación, un hash del identificador del dispositivo, el ID de jugador de Play Games si inicias sesión, la versión de la app, la tienda y la dirección IP mientras se atiende una solicitud | Para recuperar tu progreso tras reinstalar o en otro teléfono y resolver problemas a petición tuya | **Ejecución de un contrato** (art. 6(1)(b)) |
 | **Google Play Billing** | Las compras las gestiona Google Play. Recibimos el producto, el precio, la moneda y el identificador de transacción, nunca tus datos de pago | Entregar las monedas, la experiencia o el potenciador que compraste | **Ejecución de un contrato** (art. 6.1.b) |
 | **Red Publicitaria de Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | El identificador de publicidad del dispositivo (Google Advertising ID), la dirección IP, el modelo del dispositivo, la versión del sistema operativo, el idioma, el operador móvil, las impresiones y clics de anuncios, la ubicación aproximada deducida de la dirección IP | Mostrar anuncios (anuncios con recompensa que decides ver a cambio de monedas, experiencia, kits o una grúa, y anuncios a pantalla completa entre viajes) y financiar el desarrollo del Juego | Mostrar anuncios: nuestro **interés legítimo** en financiar el Juego gratuito (art. 6.1.f). Anuncios **personalizados** según tus intereses: solo con **tu consentimiento** (art. 6.1.a) en el EEE, el Reino Unido y Suiza; sin él, los anuncios no se personalizan |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) y sus redes publicitarias asociadas: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | El identificador de publicidad del dispositivo (Google Advertising ID), dirección IP, modelo del dispositivo, versión del sistema operativo, idioma, operador móvil, versión de la app, impresiones y clics de anuncios, ubicación aproximada derivada de la dirección IP | Para mostrar un anuncio cuando la Red Publicitaria de Yandex no tiene ninguno, y financiar el desarrollo del Juego | Mostrar anuncios: nuestro **interés legítimo** en financiar el Juego gratuito (art. 6(1)(f)). Anuncios **personalizados**: solo con **tu consentimiento** (art. 6(1)(a)) en el EEE, el Reino Unido y Suiza; sin él, los anuncios no se personalizan |
 
-**No** recopilamos tu nombre, dirección de correo electrónico, número de teléfono, contactos, fotos ni ubicación precisa, y **no** vendemos tus datos. Solo las redes publicitarias descritas arriba (la Red Publicitaria de Yandex, y Appodeal con sus redes asociadas) reciben el identificador de publicidad.
+**No** recopilamos tu nombre real, dirección de correo electrónico, número de teléfono, contactos, fotos ni ubicación precisa, y **no** vendemos tus datos. Solo las redes publicitarias descritas arriba (la Red Publicitaria de Yandex, y Appodeal con sus redes asociadas) reciben el identificador de publicidad.
 
 ## 4. Tus opciones sobre analíticas y anuncios
 
@@ -54,6 +55,7 @@ Los informes de fallos (Firebase Crashlytics) se envían siempre, porque sin ell
 - Informes de fallos: 90 días (Firebase Crashlytics).
 - Registros de compras necesarios para la contabilidad: durante el tiempo que exija la ley.
 - Datos publicitarios: según las normas de Yandex y de Appodeal y sus socios (sección 6).
+- Partidas en la nube: hasta que pidas borrarlas. Si el almacenamiento del servidor está casi lleno, borramos a los jugadores que llevan más de 12 meses sin jugar.
 
 ## 6. Transferencias internacionales
 
@@ -63,9 +65,11 @@ Yandex LLC trata los datos publicitarios en servidores situados en la Federació
 
 Appodeal Inc. y sus redes publicitarias asociadas pueden tratar datos publicitarios en Estados Unidos y otros países según sus propias condiciones de privacidad: https://appodeal.com/privacy-policy/
 
+Las partidas en la nube las gestiona Cloudflare, Inc., que puede tratar datos en Estados Unidos y otros países: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Tus derechos
 
-Según dónde vivas (por ejemplo, en virtud del RGPD o del RGPD del Reino Unido), tienes derecho a acceder a tus datos, rectificarlos o suprimirlos, a limitar su tratamiento u oponerte a él, a la portabilidad de los datos y a retirar tu consentimiento en cualquier momento (la retirada no afecta al tratamiento anterior). Escribe a **taxitycoon.support@gmail.com**. Como el Juego no tiene cuentas, es posible que te pidamos datos que nos permitan encontrar tu información (por ejemplo, la fecha aproximada en que jugaste y el modelo de tu dispositivo). Respondemos en el plazo de un mes.
+Según dónde vivas (por ejemplo, en virtud del RGPD o del RGPD del Reino Unido), tienes derecho a acceder a tus datos, rectificarlos o suprimirlos, a limitar su tratamiento u oponerte a él, a la portabilidad de los datos y a retirar tu consentimiento en cualquier momento (la retirada no afecta al tratamiento anterior). Escribe a **taxitycoon.support@gmail.com**. Es posible que te pidamos tu ID de jugador (en Ajustes) o datos que nos permitan encontrar tu información. Respondemos en el plazo de un mes. Para borrar tu cuenta y tus partidas en la nube, usa **Ajustes → Datos → Solicitar borrado de datos** o sigue [estos pasos](/delete-data/).
 
 También tienes derecho a presentar una reclamación ante una autoridad de protección de datos, en particular en el país donde vives.
 
@@ -75,7 +79,7 @@ El Juego no está dirigido a menores de 16 años y no recopilamos a sabiendas da
 
 ## 9. Seguridad
 
-Los datos enviados a Firebase y Yandex se cifran durante la transmisión (HTTPS). Los datos de tu dispositivo se guardan en el almacenamiento privado del Juego.
+Los datos enviados a Firebase y Yandex se cifran durante la transmisión (HTTPS). Los datos de tu dispositivo se guardan en el almacenamiento privado del Juego. Las partidas en la nube también se envían por HTTPS.
 
 ## 10. Cambios
 

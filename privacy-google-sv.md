@@ -7,7 +7,7 @@ lang: sv
 
 # Integritetspolicy för Taxi Tycoon (Google Play)
 
-_Senast uppdaterad: 28 oktober 2026_
+_Senast uppdaterad: 6 november 2026_
 
 _Detta är en översättning av den [engelska versionen](../). Vid skillnader gäller den engelska versionen._
 
@@ -20,9 +20,9 @@ När Yandex annonsnätverk saknar en annons kommer annonsen från **Appodeal** (
 Personuppgiftsansvarig är **Aliaksei Kireishyn**, enskild utvecklare, Minsk, Republiken Belarus.
 Kontakt för alla frågor och begäranden om integritet: **taxitycoon.support@gmail.com**
 
-## 2. Uppgifter som stannar på din enhet
+## 2. Speldata på din enhet och på vår server
 
-Smeknamnet, företagsnamnet, logotypen, startlandet och alla framsteg du skapar i Spelet sparas **endast på din enhet** i Spelets sparfil. Vi tar inte emot dem. Om du avinstallerar Spelet raderas de.
+Smeknamn, företagsnamn, logotyp, startland och alla framsteg sparas i sparfilen på din enhet. Efter din första avslutade körning sparas också en kopia av filen på vår server, så att du kan få tillbaka dina framsteg efter en ominstallation eller på en annan telefon. Att avinstallera Spelet raderar filen på enheten, inte kopian på servern: se [Radera dina uppgifter](/delete-data/).
 
 ## 3. Uppgifter vi samlar in och varför
 
@@ -33,11 +33,12 @@ Spelet använder tjänster från Googles plattform **Firebase** (som i EES, Stor
 | **Firebase Analytics** | Ett slumpmässigt app-instans-ID; spelhändelser (till exempel slutförd handledning, upplåst stad, avslutad körning, uppnådd nivå, myntsaldo, startlandet du valde i Spelet); händelser för köp i appen (produkt, pris, valuta, transaktions-ID); enhetsmodell, operativsystem, appversion, språk; ungefärlig plats (land / region) som Google härleder från IP-adressen; Google lagrar inte själva IP-adressen | För att förstå hur Spelet spelas och förbättra dess balans, innehåll och stabilitet | **Ditt samtycke** (art. 6.1 a) i EES, Storbritannien och Schweiz. I övriga världen vårt berättigade intresse av att förbättra Spelet (art. 6.1 f); du kan stänga av det när som helst |
 | **Firebase Crashlytics** | Krasch- och felrapporter: stackspår, enhetsmodell, OS-version, ledigt minne / diskutrymme, appversion, ett slumpmässigt Crashlytics-installations-ID, enhetens språk och antalet appstarter | För att hitta och åtgärda krascher och fel | Vårt **berättigade intresse** av att hålla Spelet fungerande (art. 6.1 f) |
 | **Firebase Remote Config** | Ett slumpmässigt Firebase-installations-ID och appversionen | För att leverera inställningar för spelbalansen utan appuppdatering | Vårt **berättigade intresse** av att driva Spelet (art. 6.1 f) |
+| **Molnsparningar** (vår server hos Cloudflare) | En kopia av sparfilen (smeknamn, företagsnamn, logotyp, framsteg, inställningar), ett spelar-ID, en återställningskod, en hash av enhetsidentifieraren, Play Games-spelar-ID om du loggar in, appversion, butik, IP-adressen medan en begäran hanteras | För att få tillbaka framstegen efter en ominstallation eller på en annan telefon och lösa problem på din begäran | **Fullgörande av avtal** (art. 6.1 b) |
 | **Google Play Billing** | Köp hanteras av Google Play. Vi får produkt, pris, valuta och transaktions-ID, aldrig dina betalningsuppgifter | För att leverera de mynt, den erfarenhet eller den boost du köpt | **Fullgörande av avtal** (art. 6.1 b) |
 | **Yandex annonsnätverk** (Yandex Mobile Ads SDK, Yandex LLC) | Enhetens annons-ID (Google Advertising ID), IP-adress, enhetsmodell, OS-version, språk, mobiloperatör, annonsvisningar och klick, ungefärlig plats härledd från IP-adressen | För att visa annonser (belöningsannonser du väljer att titta på för mynt, erfarenhet, kit eller bärgning, och helskärmsannonser mellan körningar) och finansiera utvecklingen av Spelet | Visning av annonser: vårt **berättigade intresse** av att finansiera det kostnadsfria Spelet (art. 6.1 f). **Anpassade** annonser utifrån dina intressen: endast med **ditt samtycke** (art. 6.1 a) i EES, Storbritannien och Schweiz; utan det anpassas inte annonserna |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) och dess partnernätverk för annonser: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | Enhetens annons-ID (Google Advertising ID), IP-adress, enhetsmodell, OS-version, språk, mobiloperatör, appversion, annonsvisningar och klick, ungefärlig plats utifrån IP-adressen | För att visa en annons när Yandex annonsnätverk saknar en, och finansiera utvecklingen av Spelet | Visa annonser: vårt **berättigade intresse** av att finansiera det kostnadsfria Spelet (art. 6.1 f). **Personanpassade** annonser: endast med **ditt samtycke** (art. 6.1 a) i EES, Storbritannien och Schweiz; utan det är annonserna inte personanpassade |
 
-Vi samlar **inte** in ditt namn, din e-postadress, ditt telefonnummer, dina kontakter, foton eller exakta plats, och vi säljer **inte** dina uppgifter. Endast de annonsnätverk som beskrivs ovan (Yandex annonsnätverk samt Appodeal med dess partnernätverk) får annons-ID:t.
+Vi samlar **inte** in ditt riktiga namn, din e-postadress, ditt telefonnummer, dina kontakter, foton eller exakta plats, och vi säljer **inte** dina uppgifter. Endast de annonsnätverk som beskrivs ovan (Yandex annonsnätverk samt Appodeal med dess partnernätverk) får annons-ID:t.
 
 ## 4. Ditt val om analys och annonser
 
@@ -54,6 +55,7 @@ Kraschrapporter (Firebase Crashlytics) skickas alltid, eftersom Spelet inte kan 
 - Kraschrapporter: 90 dagar (Firebase Crashlytics).
 - Köpunderlag som behövs för bokföringen: så länge lagen kräver.
 - Annonsdata: enligt reglerna för Yandex samt Appodeal och dess partner (avsnitt 6).
+- Molnsparningar: tills du begär att de raderas. Om serverutrymmet nästan är fullt raderar vi spelare som inte har spelat på över 12 månader.
 
 ## 6. Internationella överföringar
 
@@ -63,9 +65,11 @@ Yandex LLC behandlar annonsdata på servrar i Ryska federationen enligt sina egn
 
 Appodeal Inc. och dess partnernätverk för annonser kan behandla annonsdata i USA och andra länder enligt sina egna integritetsvillkor: https://appodeal.com/privacy-policy/
 
+Molnsparningar hanteras av Cloudflare, Inc., som kan behandla uppgifter i USA och andra länder: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Dina rättigheter
 
-Beroende på var du bor (till exempel enligt GDPR eller UK GDPR) har du rätt att få tillgång till, rätta eller radera dina uppgifter, att begränsa eller invända mot behandlingen, till dataportabilitet och att när som helst återkalla ditt samtycke (återkallandet påverkar inte tidigare behandling). Skriv till **taxitycoon.support@gmail.com**. Eftersom Spelet inte har konton kan vi be dig om uppgifter som hjälper oss att hitta dina data (till exempel ungefärligt datum när du spelade och din enhetsmodell). Vi svarar inom en månad.
+Beroende på var du bor (till exempel enligt GDPR eller UK GDPR) har du rätt att få tillgång till, rätta eller radera dina uppgifter, att begränsa eller invända mot behandlingen, till dataportabilitet och att när som helst återkalla ditt samtycke (återkallandet påverkar inte tidigare behandling). Skriv till **taxitycoon.support@gmail.com**. Vi kan be om ditt spelar-ID (i Inställningar) eller uppgifter som hjälper oss att hitta dina data. Vi svarar inom en månad. För att radera ditt konto och dina molnsparningar, använd **Inställningar → Data → Begär radering av data** eller följ [de här stegen](/delete-data/).
 
 Du har också rätt att lämna in ett klagomål till en dataskyddsmyndighet, särskilt i landet där du bor (i Sverige Integritetsskyddsmyndigheten, IMY).
 
@@ -75,7 +79,7 @@ Spelet riktar sig inte till barn under 16 år, och vi samlar inte medvetet in pe
 
 ## 9. Säkerhet
 
-Uppgifter som skickas till Firebase och Yandex krypteras under överföringen (HTTPS). Uppgifter på din enhet lagras i Spelets privata lagring.
+Uppgifter som skickas till Firebase och Yandex krypteras under överföringen (HTTPS). Uppgifter på din enhet lagras i Spelets privata lagring. Även molnsparningar skickas via HTTPS.
 
 ## 10. Ändringar
 

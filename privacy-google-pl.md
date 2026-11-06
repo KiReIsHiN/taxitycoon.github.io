@@ -7,7 +7,7 @@ lang: pl
 
 # Polityka prywatności Taxi Tycoon (Google Play)
 
-_Ostatnia aktualizacja: 28 października 2026_
+_Ostatnia aktualizacja: 6 listopada 2026_
 
 _To jest tłumaczenie [wersji angielskiej](../). W razie rozbieżności obowiązuje wersja angielska._
 
@@ -20,9 +20,9 @@ Gdy sieć reklamowa Yandex nie ma reklamy, reklamę dostarcza **Appodeal** (Appo
 Administratorem danych jest **Aliaksei Kireishyn**, deweloper będący osobą fizyczną, Mińsk, Republika Białorusi.
 Kontakt we wszystkich sprawach i wnioskach dotyczących prywatności: **taxitycoon.support@gmail.com**
 
-## 2. Dane, które pozostają na Twoim urządzeniu
+## 2. Dane gry na Twoim urządzeniu i na naszym serwerze
 
-Pseudonim, nazwa firmy, logo, kraj startowy i cały postęp, który tworzysz w Grze, są zapisywane **wyłącznie na Twoim urządzeniu** w pliku zapisu Gry. Nie otrzymujemy ich. Odinstalowanie Gry je usuwa.
+Pseudonim, nazwa firmy, logo, kraj startowy i cały postęp są przechowywane w pliku zapisu na Twoim urządzeniu. Po pierwszym ukończonym kursie kopia tego pliku jest przechowywana także na naszym serwerze, aby można było odzyskać postęp po ponownej instalacji lub na innym telefonie. Odinstalowanie Gry usuwa plik z urządzenia, ale nie kopię na serwerze: zobacz [Usuwanie danych](/delete-data/).
 
 ## 3. Jakie dane zbieramy i dlaczego
 
@@ -33,6 +33,7 @@ Gra korzysta z usług platformy **Firebase** firmy Google (świadczonych w EOG, 
 | **Firebase Analytics** | Losowy identyfikator instancji aplikacji; zdarzenia w grze (np. ukończenie samouczka, odblokowanie miasta, zakończenie kursu, osiągnięcie poziomu, saldo monet, kraj startowy wybrany w Grze); zdarzenia zakupów w aplikacji (produkt, cena, waluta, identyfikator transakcji); model urządzenia, system operacyjny, wersja aplikacji, język; przybliżona lokalizacja (kraj / region), którą Google ustala na podstawie adresu IP; Google nie przechowuje samego adresu IP | Aby zrozumieć, jak gra się w Grę, i ulepszać jej balans, zawartość i stabilność | **Twoja zgoda** (art. 6 ust. 1 lit. a) w EOG, Wielkiej Brytanii i Szwajcarii. Gdzie indziej nasz prawnie uzasadniony interes w ulepszaniu Gry (art. 6 ust. 1 lit. f); możesz to wyłączyć w dowolnym momencie |
 | **Firebase Crashlytics** | Raporty o awariach i błędach: ślady stosu, model urządzenia, wersja systemu, wolna pamięć / miejsce na dysku, wersja aplikacji, losowy identyfikator instalacji Crashlytics, język urządzenia i liczba uruchomień aplikacji | Aby znajdować i naprawiać awarie i błędy | Nasz **prawnie uzasadniony interes** w utrzymaniu działania Gry (art. 6 ust. 1 lit. f) |
 | **Firebase Remote Config** | Losowy identyfikator instalacji Firebase i wersja aplikacji | Aby dostarczać ustawienia balansu Gry bez aktualizacji aplikacji | Nasz **prawnie uzasadniony interes** w prowadzeniu Gry (art. 6 ust. 1 lit. f) |
+| **Zapisy w chmurze** (nasz serwer w Cloudflare) | Kopia pliku zapisu (pseudonim, nazwa firmy, logo, postęp, ustawienia), ID gracza, kod odzyskiwania, skrót identyfikatora urządzenia, ID gracza Play Games, jeśli się zalogujesz, wersja aplikacji, sklep, adres IP podczas obsługi żądania | Aby odzyskać postęp po ponownej instalacji lub na innym telefonie i rozwiązywać problemy na Twoją prośbę | **Wykonanie umowy** (art. 6 ust. 1 lit. b) |
 | **Google Play Billing** | Zakupy obsługuje Google Play. Otrzymujemy produkt, cenę, walutę i identyfikator transakcji, nigdy Twoich danych płatniczych | Aby dostarczyć kupione monety, doświadczenie lub wzmocnienie | **Wykonanie umowy** (art. 6 ust. 1 lit. b) |
 | **Sieć reklamowa Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | Identyfikator reklamowy urządzenia (Google Advertising ID), adres IP, model urządzenia, wersja systemu, język, operator komórkowy, wyświetlenia i kliknięcia reklam, przybliżona lokalizacja ustalona na podstawie adresu IP | Aby wyświetlać reklamy (reklamy z nagrodą, które oglądasz w zamian za monety, doświadczenie, zestawy lub holowanie, oraz reklamy pełnoekranowe między kursami) i finansować rozwój Gry | Wyświetlanie reklam: nasz **prawnie uzasadniony interes** w finansowaniu darmowej Gry (art. 6 ust. 1 lit. f). Reklamy **spersonalizowane** według Twoich zainteresowań: tylko za **Twoją zgodą** (art. 6 ust. 1 lit. a) w EOG, Wielkiej Brytanii i Szwajcarii; bez niej reklamy nie są personalizowane |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) i jego partnerskie sieci reklamowe: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | Identyfikator reklamowy urządzenia (Google Advertising ID), adres IP, model urządzenia, wersja systemu, język, operator komórkowy, wersja aplikacji, wyświetlenia i kliknięcia reklam, przybliżona lokalizacja ustalona na podstawie adresu IP | Aby wyświetlić reklamę, gdy sieć reklamowa Yandex jej nie ma, i finansować rozwój Gry | Wyświetlanie reklam: nasz **prawnie uzasadniony interes** w finansowaniu darmowej Gry (art. 6 ust. 1 lit. f). Reklamy **spersonalizowane**: tylko za **Twoją zgodą** (art. 6 ust. 1 lit. a) w EOG, Wielkiej Brytanii i Szwajcarii; bez niej reklamy nie są personalizowane |
@@ -54,6 +55,7 @@ Raporty o awariach (Firebase Crashlytics) są wysyłane zawsze, ponieważ bez ni
 - Raporty o awariach: 90 dni (Firebase Crashlytics).
 - Dokumentacja zakupów potrzebna do księgowości: tak długo, jak wymaga tego prawo.
 - Dane reklamowe: zgodnie z zasadami Yandex oraz Appodeal i jego partnerów (punkt 6).
+- Zapisy w chmurze: dopóki nie poprosisz o ich usunięcie. Gdy miejsce na serwerze jest prawie zajęte, usuwamy graczy, którzy nie grali ponad 12 miesięcy.
 
 ## 6. Przekazywanie danych za granicę
 
@@ -63,9 +65,11 @@ Yandex LLC przetwarza dane reklamowe na serwerach w Federacji Rosyjskiej zgodnie
 
 Appodeal Inc. i jego partnerskie sieci reklamowe mogą przetwarzać dane reklamowe w Stanach Zjednoczonych i innych krajach zgodnie z własnymi zasadami prywatności: https://appodeal.com/privacy-policy/
 
+Zapisy w chmurze obsługuje Cloudflare, Inc., która może przetwarzać dane w Stanach Zjednoczonych i innych krajach: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Twoje prawa
 
-W zależności od miejsca zamieszkania (np. na podstawie RODO lub UK GDPR) masz prawo dostępu do swoich danych, ich sprostowania lub usunięcia, ograniczenia przetwarzania lub sprzeciwu wobec niego, do przenoszenia danych oraz prawo do wycofania zgody w dowolnym momencie (wycofanie nie wpływa na wcześniejsze przetwarzanie). Napisz na **taxitycoon.support@gmail.com**. Ponieważ Gra nie ma kont, możemy poprosić o informacje, które pozwolą odnaleźć Twoje dane (np. przybliżoną datę gry i model urządzenia). Odpowiadamy w ciągu jednego miesiąca.
+W zależności od miejsca zamieszkania (np. na podstawie RODO lub UK GDPR) masz prawo dostępu do swoich danych, ich sprostowania lub usunięcia, ograniczenia przetwarzania lub sprzeciwu wobec niego, do przenoszenia danych oraz prawo do wycofania zgody w dowolnym momencie (wycofanie nie wpływa na wcześniejsze przetwarzanie). Napisz na **taxitycoon.support@gmail.com**. Możemy poprosić o ID gracza (w Ustawieniach) lub informacje, które pozwolą odnaleźć Twoje dane. Odpowiadamy w ciągu jednego miesiąca. Aby usunąć konto i zapisy w chmurze, użyj **Ustawienia → Dane → Poproś o usunięcie danych** lub wykonaj [te kroki](/delete-data/).
 
 Masz również prawo wnieść skargę do organu ochrony danych, w szczególności w kraju, w którym mieszkasz (w Polsce — do Prezesa UODO).
 
@@ -75,7 +79,7 @@ Gra nie jest przeznaczona dla dzieci poniżej 16 roku życia i nie zbieramy świ
 
 ## 9. Bezpieczeństwo
 
-Dane wysyłane do Firebase i Yandex są szyfrowane podczas przesyłania (HTTPS). Dane na Twoim urządzeniu są przechowywane w prywatnej pamięci Gry.
+Dane wysyłane do Firebase i Yandex są szyfrowane podczas przesyłania (HTTPS). Dane na Twoim urządzeniu są przechowywane w prywatnej pamięci Gry. Zapisy w chmurze również są przesyłane przez HTTPS.
 
 ## 10. Zmiany
 

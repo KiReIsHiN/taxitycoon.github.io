@@ -7,7 +7,7 @@ lang: pt-BR
 
 # Política de Privacidade do Taxi Tycoon (Google Play)
 
-_Última atualização: 28 de outubro de 2026_
+_Última atualização: 6 de novembro de 2026_
 
 _Esta é uma tradução da [versão em inglês](../). Em caso de divergência, prevalece a versão em inglês._
 
@@ -20,9 +20,9 @@ Quando a Rede de Publicidade Yandex não tem um anúncio, o anúncio vem do **Ap
 O controlador dos dados é **Aliaksei Kireishyn**, desenvolvedor individual, Minsk, República de Belarus.
 Contato para qualquer dúvida ou solicitação sobre privacidade: **taxitycoon.support@gmail.com**
 
-## 2. Dados que ficam no seu aparelho
+## 2. Dados do jogo no seu aparelho e no nosso servidor
 
-O apelido, o nome da empresa, o logotipo, o país inicial e todo o progresso que você cria no Jogo ficam salvos **somente no seu aparelho**, no arquivo de salvamento do Jogo. Nós não os recebemos. Desinstalar o Jogo os apaga.
+O apelido, o nome da empresa, o logotipo, o país inicial e todo o progresso ficam no arquivo de salvamento do seu aparelho. Depois da primeira corrida concluída, uma cópia desse arquivo também fica no nosso servidor, para você recuperar o progresso ao reinstalar o Jogo ou em outro celular. Desinstalar o Jogo apaga o arquivo do aparelho, não a cópia do servidor: veja [Excluir seus dados](/delete-data/).
 
 ## 3. Dados que coletamos e por quê
 
@@ -33,11 +33,12 @@ O Jogo usa serviços da plataforma **Firebase** do Google (fornecidos no EEE, no
 | **Firebase Analytics** | Um identificador aleatório da instância do app; eventos de jogo (por exemplo, tutorial concluído, cidade desbloqueada, corrida finalizada, nível alcançado, saldo de moedas, o país inicial escolhido no Jogo); eventos de compras no app (produto, preço, moeda, ID da transação); modelo do aparelho, sistema operacional, versão do app, idioma; localização aproximada (país / região) que o Google deduz do endereço IP; o Google não armazena o próprio endereço IP | Entender como o Jogo é jogado e melhorar seu equilíbrio, conteúdo e estabilidade | **Seu consentimento** (art. 6(1)(a)) no EEE, no Reino Unido e na Suíça. Nos demais lugares, nosso legítimo interesse em melhorar o Jogo (art. 6(1)(f)); você pode desativar a qualquer momento |
 | **Firebase Crashlytics** | Relatórios de falhas e erros: rastreamentos de pilha, modelo do aparelho, versão do sistema, memória / armazenamento livres, versão do app, um identificador aleatório de instalação do Crashlytics, o idioma do aparelho e o número de inicializações do app | Encontrar e corrigir falhas e erros | Nosso **legítimo interesse** em manter o Jogo funcionando (art. 6(1)(f)) |
 | **Firebase Remote Config** | Um identificador aleatório de instalação do Firebase e a versão do app | Enviar configurações de equilíbrio do Jogo sem atualizar o app | Nosso **legítimo interesse** em operar o Jogo (art. 6(1)(f)) |
+| **Salvamentos na nuvem** (nosso servidor na Cloudflare) | Uma cópia do arquivo de salvamento (apelido, nome da empresa, logotipo, progresso, configurações), um ID de jogador, um código de recuperação, um hash do identificador do aparelho, o ID de jogador do Play Games se você entrar, versão do app, loja, o endereço IP durante o atendimento de uma solicitação | Para recuperar o progresso após reinstalar ou em outro celular e resolver problemas a seu pedido | **Execução de contrato** (art. 6(1)(b)) |
 | **Google Play Billing** | As compras são processadas pelo Google Play. Recebemos o produto, o preço, a moeda e o ID da transação, nunca seus dados de pagamento | Entregar as moedas, a experiência ou o impulso que você comprou | **Execução de contrato** (art. 6(1)(b)) |
 | **Rede de Publicidade Yandex** (Yandex Mobile Ads SDK, Yandex LLC) | O ID de publicidade do aparelho (Google Advertising ID), endereço IP, modelo do aparelho, versão do sistema, idioma, operadora, impressões e cliques em anúncios, localização aproximada deduzida do endereço IP | Exibir anúncios (anúncios premiados que você escolhe assistir em troca de moedas, experiência, kits ou um guincho, e anúncios em tela cheia entre as corridas) e financiar o desenvolvimento do Jogo | Exibição de anúncios: nosso **legítimo interesse** em financiar o Jogo gratuito (art. 6(1)(f)). Anúncios **personalizados** com base nos seus interesses: somente com **seu consentimento** (art. 6(1)(a)) no EEE, no Reino Unido e na Suíça; sem ele, os anúncios não são personalizados |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) e suas redes de publicidade parceiras: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | O ID de publicidade do dispositivo (Google Advertising ID), endereço IP, modelo do dispositivo, versão do sistema, idioma, operadora, versão do app, impressões e cliques em anúncios, localização aproximada obtida do endereço IP | Para exibir um anúncio quando a Rede de Publicidade Yandex não tem nenhum, e financiar o desenvolvimento do Jogo | Exibir anúncios: nosso **interesse legítimo** em financiar o Jogo gratuito (art. 6(1)(f)). Anúncios **personalizados**: somente com o **seu consentimento** (art. 6(1)(a)) no EEE, no Reino Unido e na Suíça; sem ele, os anúncios não são personalizados |
 
-**Não** coletamos seu nome, e-mail, número de telefone, contatos, fotos ou localização precisa, e **não** vendemos seus dados. Somente as redes de publicidade descritas acima (a Rede de Publicidade Yandex, e o Appodeal com suas redes parceiras) recebem o ID de publicidade.
+**Não** coletamos seu nome real, e-mail, número de telefone, contatos, fotos ou localização precisa, e **não** vendemos seus dados. Somente as redes de publicidade descritas acima (a Rede de Publicidade Yandex, e o Appodeal com suas redes parceiras) recebem o ID de publicidade.
 
 ## 4. Suas escolhas sobre análises e anúncios
 
@@ -54,6 +55,7 @@ Os relatórios de falhas (Firebase Crashlytics) são sempre enviados, pois sem e
 - Relatórios de falhas: 90 dias (Firebase Crashlytics).
 - Registros de compras necessários para a contabilidade: pelo tempo exigido por lei.
 - Dados de publicidade: conforme as regras da Yandex e do Appodeal e seus parceiros (seção 6).
+- Salvamentos na nuvem: até você pedir a exclusão. Se o armazenamento do servidor estiver quase cheio, excluímos jogadores que não jogam há mais de 12 meses.
 
 ## 6. Transferências internacionais
 
@@ -63,9 +65,11 @@ A Yandex LLC processa dados de publicidade em servidores na Federação Russa, d
 
 A Appodeal Inc. e suas redes de publicidade parceiras podem tratar dados de publicidade nos Estados Unidos e em outros países conforme seus próprios termos de privacidade: https://appodeal.com/privacy-policy/
 
+Os salvamentos na nuvem são tratados pela Cloudflare, Inc., que pode processar dados nos Estados Unidos e em outros países: https://www.cloudflare.com/privacypolicy/
+
 ## 7. Seus direitos
 
-Dependendo de onde você mora (por exemplo, pelo GDPR, pelo UK GDPR ou pela LGPD no Brasil), você tem o direito de acessar, corrigir ou excluir seus dados, de limitar ou se opor ao tratamento, à portabilidade dos dados e de revogar seu consentimento a qualquer momento (a revogação não afeta o tratamento anterior). Escreva para **taxitycoon.support@gmail.com**. Como o Jogo não tem contas, podemos pedir informações que nos permitam encontrar seus dados (por exemplo, a data aproximada em que você jogou e o modelo do seu aparelho). Respondemos em até um mês.
+Dependendo de onde você mora (por exemplo, pelo GDPR, pelo UK GDPR ou pela LGPD no Brasil), você tem o direito de acessar, corrigir ou excluir seus dados, de limitar ou se opor ao tratamento, à portabilidade dos dados e de revogar seu consentimento a qualquer momento (a revogação não afeta o tratamento anterior). Escreva para **taxitycoon.support@gmail.com**. Podemos pedir seu ID de jogador (nas Configurações) ou informações que nos permitam encontrar seus dados. Respondemos em até um mês. Para excluir sua conta e seus salvamentos na nuvem, use **Configurações → Dados → Solicitar exclusão de dados** ou siga [estes passos](/delete-data/).
 
 Você também tem o direito de apresentar uma reclamação a uma autoridade de proteção de dados, em especial no país onde mora (no Brasil, a ANPD).
 
@@ -75,7 +79,7 @@ O Jogo não se destina a crianças menores de 16 anos, e não coletamos intencio
 
 ## 9. Segurança
 
-Os dados enviados ao Firebase e à Yandex são criptografados durante a transmissão (HTTPS). Os dados no seu aparelho ficam no armazenamento privado do Jogo.
+Os dados enviados ao Firebase e à Yandex são criptografados durante a transmissão (HTTPS). Os dados no seu aparelho ficam no armazenamento privado do Jogo. Os salvamentos na nuvem também são enviados por HTTPS.
 
 ## 10. Alterações
 

@@ -7,7 +7,7 @@ lang: hu
 
 # A Taxi Tycoon adatvédelmi irányelvei (Google Play)
 
-_Utolsó frissítés: 2026. október 28._
+_Utolsó frissítés: 2026. november 6._
 
 _Ez az [angol nyelvű változat](../) fordítása. Eltérés esetén az angol változat az irányadó._
 
@@ -20,9 +20,9 @@ Ha a Yandex hirdetési hálózatának nincs megjeleníthető hirdetése, a hirde
 Az adatkezelő **Aliaksei Kireishyn** egyéni fejlesztő, Minszk, Belarusz Köztársaság.
 Kapcsolat minden adatvédelmi kérdéshez és kérelemhez: **taxitycoon.support@gmail.com**
 
-## 2. Az eszközödön maradó adatok
+## 2. Játékadatok az eszközödön és a szerverünkön
 
-A becenév, a cégnév, a logó, a kezdő ország és a Játékban elért összes előrehaladás **csak az eszközödön**, a Játék mentésfájljában tárolódik. Ezeket nem kapjuk meg. A Játék eltávolításával törlődnek.
+A becenév, a cégnév, a logó, a kezdő ország és a teljes előrehaladás az eszközöd mentésfájljában tárolódik. Az első befejezett fuvar után ennek a fájlnak egy másolata a szerverünkön is tárolódik, hogy újratelepítés után vagy másik telefonon visszakaphasd a haladásodat. A Játék eltávolítása az eszközön lévő fájlt törli, a szerveren lévő másolatot nem: lásd [Adatok törlése](/delete-data/).
 
 ## 3. Milyen adatokat gyűjtünk és miért
 
@@ -33,11 +33,12 @@ A Játék a Google **Firebase** platformjának szolgáltatásait használja (az 
 | **Firebase Analytics** | Véletlenszerű alkalmazáspéldány-azonosító; játékesemények (például oktatóanyag befejezve, város feloldva, fuvar befejezve, szint elérve, érmeegyenleg, a Játékban választott kezdő ország); alkalmazáson belüli vásárlások eseményei (termék, ár, pénznem, tranzakcióazonosító); eszközmodell, operációs rendszer, alkalmazásverzió, nyelv; hozzávetőleges hely (ország / régió), amelyet a Google az IP-címből állapít meg; magát az IP-címet a Google nem tárolja | Hogy megértsük, hogyan játszanak a Játékkal, és javítsuk az egyensúlyát, tartalmát és stabilitását | **A hozzájárulásod** (6. cikk (1) a)) az EGT-ben, az Egyesült Királyságban és Svájcban. Máshol a Játék fejlesztéséhez fűződő jogos érdekünk (6. cikk (1) f)); bármikor kikapcsolhatod |
 | **Firebase Crashlytics** | Összeomlási és hibajelentések: veremkivonatok, eszközmodell, operációsrendszer-verzió, szabad memória / tárhely, alkalmazásverzió, véletlenszerű Crashlytics-telepítési azonosító, az eszköz nyelve és az alkalmazásindítások száma | Az összeomlások és hibák megtalálása és javítása | A Játék működőképességéhez fűződő **jogos érdekünk** (6. cikk (1) f)) |
 | **Firebase Remote Config** | Véletlenszerű Firebase-telepítési azonosító és az alkalmazás verziója | A játékegyensúly beállításainak eljuttatása alkalmazásfrissítés nélkül | A Játék üzemeltetéséhez fűződő **jogos érdekünk** (6. cikk (1) f)) |
+| **Felhőmentések** (szerverünk a Cloudflare-en) | A mentésfájl másolata (becenév, cégnév, logó, előrehaladás, beállítások), játékosazonosító, helyreállító kód, az eszközazonosító hash-e, a Play Games játékosazonosító, ha belépsz, alkalmazásverzió, áruház, az IP-cím a kérés feldolgozása alatt | Hogy újratelepítés után vagy másik telefonon visszakapd a haladásodat, és kérésedre megoldjuk a problémákat | **Szerződés teljesítése** (6. cikk (1) bek. b) pont) |
 | **Google Play Billing** | A vásárlásokat a Google Play kezeli. Megkapjuk a terméket, az árat, a pénznemet és a tranzakcióazonosítót, a fizetési adataidat soha | A megvásárolt érmék, tapasztalat vagy gyorsító jóváírása | **Szerződés teljesítése** (6. cikk (1) b)) |
 | **Yandex hirdetési hálózat** (Yandex Mobile Ads SDK, Yandex LLC) | Az eszköz hirdetési azonosítója (Google Advertising ID), IP-cím, eszközmodell, operációsrendszer-verzió, nyelv, mobilszolgáltató, hirdetésmegjelenítések és -kattintások, az IP-címből megállapított hozzávetőleges hely | Hirdetések megjelenítése (jutalmazott hirdetések, amelyeket érmékért, tapasztalatért, készletekért vagy autómentésért nézel meg, és teljes képernyős hirdetések a fuvarok között), valamint a Játék fejlesztésének finanszírozása | Hirdetések megjelenítése: az ingyenes Játék finanszírozásához fűződő **jogos érdekünk** (6. cikk (1) f)). Az érdeklődésedre szabott, **személyre szabott** hirdetések: csak **a hozzájárulásoddal** (6. cikk (1) a)) az EGT-ben, az Egyesült Királyságban és Svájcban; enélkül a hirdetések nem személyre szabottak |
 | **Appodeal** (Appodeal SDK, Appodeal Inc.) és partner hirdetési hálózatai: AppLovin, BidMachine, Bidon, Digital Turbine (DT Exchange), InMobi, ironSource (Unity LevelPlay), Liftoff (Vungle), Mintegral, Unity Ads | Az eszköz hirdetési azonosítója (Google Advertising ID), IP-cím, eszközmodell, operációsrendszer-verzió, nyelv, mobilszolgáltató, alkalmazásverzió, hirdetésmegjelenítések és -kattintások, az IP-címből becsült hozzávetőleges hely | Hirdetés megjelenítése, ha a Yandex hirdetési hálózatának nincs, és a Játék fejlesztésének finanszírozása | Hirdetések megjelenítése: **jogos érdekünk** az ingyenes Játék finanszírozásában (6. cikk (1) f)). **Személyre szabott** hirdetések: az EGT-ben, az Egyesült Királyságban és Svájcban csak a **hozzájárulásoddal** (6. cikk (1) a)); enélkül a hirdetések nem személyre szabottak |
 
-**Nem** gyűjtjük a neved, e-mail-címed, telefonszámod, névjegyeidet, fényképeidet vagy pontos tartózkodási helyedet, és **nem** adjuk el az adataidat. A hirdetési azonosítót csak a fent leírt hirdetési hálózatok kapják meg (a Yandex hirdetési hálózata, valamint az Appodeal és partnerhálózatai).
+**Nem** gyűjtjük a valódi neved, e-mail-címed, telefonszámod, névjegyeidet, fényképeidet vagy pontos tartózkodási helyedet, és **nem** adjuk el az adataidat. A hirdetési azonosítót csak a fent leírt hirdetési hálózatok kapják meg (a Yandex hirdetési hálózata, valamint az Appodeal és partnerhálózatai).
 
 ## 4. A választásod az analitikáról és a hirdetésekről
 
@@ -54,6 +55,7 @@ Az összeomlási jelentéseket (Firebase Crashlytics) mindig elküldjük, mert n
 - Összeomlási jelentések: 90 napig (Firebase Crashlytics).
 - A könyveléshez szükséges vásárlási nyilvántartások: ameddig a jogszabály előírja.
 - Hirdetési adatok: a Yandex, valamint az Appodeal és partnerei szabályai szerint (6. pont).
+- Felhőmentések: amíg nem kéred a törlésüket. Ha a szerver tárhelye majdnem megtelt, töröljük azokat a játékosokat, akik több mint 12 hónapja nem játszottak.
 
 ## 6. Nemzetközi adattovábbítás
 
@@ -63,9 +65,11 @@ A Yandex LLC a hirdetési adatokat az Orosz Föderációban lévő szervereken k
 
 Az Appodeal Inc. és partner hirdetési hálózatai a hirdetési adatokat az Egyesült Államokban és más országokban is kezelhetik, saját adatvédelmi feltételeik szerint: https://appodeal.com/privacy-policy/
 
+A felhőmentéseket a Cloudflare, Inc. kezeli, amely az Egyesült Államokban és más országokban is kezelhet adatokat: https://www.cloudflare.com/privacypolicy/
+
 ## 7. A jogaid
 
-Attól függően, hol élsz (például a GDPR vagy az UK GDPR alapján), jogod van az adataidhoz való hozzáféréshez, azok helyesbítéséhez vagy törléséhez, az adatkezelés korlátozásához vagy az az elleni tiltakozáshoz, az adathordozhatósághoz, valamint ahhoz, hogy hozzájárulásodat bármikor visszavond (a visszavonás nem érinti a korábbi adatkezelést). Írj a **taxitycoon.support@gmail.com** címre. Mivel a Játékban nincsenek fiókok, olyan adatokat kérhetünk tőled, amelyek alapján megtaláljuk az adataidat (például a játék hozzávetőleges dátumát és az eszközöd modelljét). Egy hónapon belül válaszolunk.
+Attól függően, hol élsz (például a GDPR vagy az UK GDPR alapján), jogod van az adataidhoz való hozzáféréshez, azok helyesbítéséhez vagy törléséhez, az adatkezelés korlátozásához vagy az az elleni tiltakozáshoz, az adathordozhatósághoz, valamint ahhoz, hogy hozzájárulásodat bármikor visszavond (a visszavonás nem érinti a korábbi adatkezelést). Írj a **taxitycoon.support@gmail.com** címre. Kérhetjük a játékosazonosítódat (a Beállításokban) vagy olyan adatokat, amelyek alapján megtaláljuk az adataidat. Egy hónapon belül válaszolunk. A fiókod és a felhőmentéseid törléséhez válaszd a **Beállítások → Adatok → Adatok törlésének kérése** lehetőséget, vagy kövesd [ezeket a lépéseket](/delete-data/).
 
 Jogod van panaszt tenni egy adatvédelmi felügyeleti hatóságnál is, különösen abban az országban, ahol élsz (Magyarországon a NAIH-nál).
 
@@ -75,7 +79,7 @@ A Játék nem 16 év alatti gyermekeknek szól, és tudatosan nem gyűjtünk tő
 
 ## 9. Biztonság
 
-A Firebase-nek és a Yandexnek küldött adatok továbbítás közben titkosítva vannak (HTTPS). Az eszközödön lévő adatok a Játék privát tárhelyén tárolódnak.
+A Firebase-nek és a Yandexnek küldött adatok továbbítás közben titkosítva vannak (HTTPS). Az eszközödön lévő adatok a Játék privát tárhelyén tárolódnak. A felhőmentések is HTTPS-en keresztül kerülnek továbbításra.
 
 ## 10. Változások
 
