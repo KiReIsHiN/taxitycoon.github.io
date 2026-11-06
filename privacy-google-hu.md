@@ -22,7 +22,7 @@ Kapcsolat minden adatvédelmi kérdéshez és kérelemhez: **taxitycoon.support@
 
 ## 2. Játékadatok az eszközödön és a szerverünkön
 
-A becenév, a cégnév, a logó, a kezdő ország és a teljes előrehaladás az eszközöd mentésfájljában tárolódik. Az első befejezett fuvar után ennek a fájlnak egy másolata a szerverünkön is tárolódik, hogy újratelepítés után vagy másik telefonon visszakaphasd a haladásodat. A Játék eltávolítása az eszközön lévő fájlt törli, a szerveren lévő másolatot nem: lásd [Adatok törlése](/delete-data/).
+A becenév, a cégnév, a logó, a kezdő ország és a teljes előrehaladás az eszközöd mentésfájljában tárolódik. Az első befejezett fuvar után ennek a fájlnak egy másolata a szerverünkön is tárolódik, hogy újratelepítés után vagy másik telefonon visszakaphasd a haladásodat. A Játék eltávolítása az eszközön lévő fájlt törli, a szerveren lévő másolatot nem: lásd [Adatok törlése](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Milyen adatokat gyűjtünk és miért
 
@@ -69,7 +69,7 @@ A felhőmentéseket a Cloudflare, Inc. kezeli, amely az Egyesült Államokban é
 
 ## 7. A jogaid
 
-Attól függően, hol élsz (például a GDPR vagy az UK GDPR alapján), jogod van az adataidhoz való hozzáféréshez, azok helyesbítéséhez vagy törléséhez, az adatkezelés korlátozásához vagy az az elleni tiltakozáshoz, az adathordozhatósághoz, valamint ahhoz, hogy hozzájárulásodat bármikor visszavond (a visszavonás nem érinti a korábbi adatkezelést). Írj a **taxitycoon.support@gmail.com** címre. Kérhetjük a játékosazonosítódat (a Beállításokban) vagy olyan adatokat, amelyek alapján megtaláljuk az adataidat. Egy hónapon belül válaszolunk. A fiókod és a felhőmentéseid törléséhez válaszd a **Beállítások → Adatok → Adatok törlésének kérése** lehetőséget, vagy kövesd [ezeket a lépéseket](/delete-data/).
+Attól függően, hol élsz (például a GDPR vagy az UK GDPR alapján), jogod van az adataidhoz való hozzáféréshez, azok helyesbítéséhez vagy törléséhez, az adatkezelés korlátozásához vagy az az elleni tiltakozáshoz, az adathordozhatósághoz, valamint ahhoz, hogy hozzájárulásodat bármikor visszavond (a visszavonás nem érinti a korábbi adatkezelést). Írj a **taxitycoon.support@gmail.com** címre. Kérhetjük a játékosazonosítódat (a Beállításokban) vagy olyan adatokat, amelyek alapján megtaláljuk az adataidat. Egy hónapon belül válaszolunk. A fiókod és a felhőmentéseid törléséhez válaszd a **Beállítások → Adatok → Adatok törlésének kérése** lehetőséget, vagy kövesd [ezeket a lépéseket](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Jogod van panaszt tenni egy adatvédelmi felügyeleti hatóságnál is, különösen abban az országban, ahol élsz (Magyarországon a NAIH-nál).
 

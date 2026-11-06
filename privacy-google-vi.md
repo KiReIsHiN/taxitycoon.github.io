@@ -22,7 +22,7 @@ Liên hệ cho mọi câu hỏi hoặc yêu cầu về quyền riêng tư: **tax
 
 ## 2. Dữ liệu trò chơi trên thiết bị của bạn và trên máy chủ của chúng tôi
 
-Biệt danh, tên công ty, logo, quốc gia khởi đầu và toàn bộ tiến trình được lưu trong tệp lưu trên thiết bị của bạn. Sau chuyến đầu tiên hoàn thành, một bản sao của tệp này cũng được lưu trên máy chủ của chúng tôi để bạn có thể lấy lại tiến trình sau khi cài lại Trò chơi hoặc trên điện thoại khác. Gỡ Trò chơi sẽ xóa tệp trên thiết bị, không xóa bản sao trên máy chủ: xem [Xóa dữ liệu của bạn](/delete-data/).
+Biệt danh, tên công ty, logo, quốc gia khởi đầu và toàn bộ tiến trình được lưu trong tệp lưu trên thiết bị của bạn. Sau chuyến đầu tiên hoàn thành, một bản sao của tệp này cũng được lưu trên máy chủ của chúng tôi để bạn có thể lấy lại tiến trình sau khi cài lại Trò chơi hoặc trên điện thoại khác. Gỡ Trò chơi sẽ xóa tệp trên thiết bị, không xóa bản sao trên máy chủ: xem [Xóa dữ liệu của bạn](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Dữ liệu chúng tôi thu thập và lý do
 
@@ -69,7 +69,7 @@ Bản lưu đám mây do Cloudflare, Inc. xử lý, công ty này có thể xử
 
 ## 7. Quyền của bạn
 
-Tùy theo nơi bạn sống (ví dụ theo GDPR hoặc UK GDPR), bạn có quyền truy cập, chỉnh sửa hoặc xóa dữ liệu của mình, hạn chế hoặc phản đối việc xử lý, quyền di chuyển dữ liệu và quyền rút lại sự đồng ý bất cứ lúc nào (việc rút lại không ảnh hưởng đến việc xử lý trước đó). Hãy viết thư đến **taxitycoon.support@gmail.com**. Chúng tôi có thể hỏi ID người chơi của bạn (trong Cài đặt) hoặc thông tin giúp tìm dữ liệu của bạn. Chúng tôi trả lời trong vòng một tháng. Để xóa tài khoản và bản lưu đám mây, hãy mở **Cài đặt → Dữ liệu → Yêu cầu xóa dữ liệu** hoặc làm theo [các bước này](/delete-data/).
+Tùy theo nơi bạn sống (ví dụ theo GDPR hoặc UK GDPR), bạn có quyền truy cập, chỉnh sửa hoặc xóa dữ liệu của mình, hạn chế hoặc phản đối việc xử lý, quyền di chuyển dữ liệu và quyền rút lại sự đồng ý bất cứ lúc nào (việc rút lại không ảnh hưởng đến việc xử lý trước đó). Hãy viết thư đến **taxitycoon.support@gmail.com**. Chúng tôi có thể hỏi ID người chơi của bạn (trong Cài đặt) hoặc thông tin giúp tìm dữ liệu của bạn. Chúng tôi trả lời trong vòng một tháng. Để xóa tài khoản và bản lưu đám mây, hãy mở **Cài đặt → Dữ liệu → Yêu cầu xóa dữ liệu** hoặc làm theo [các bước này](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Bạn cũng có quyền khiếu nại với cơ quan bảo vệ dữ liệu, đặc biệt là tại quốc gia bạn sinh sống.
 

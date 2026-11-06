@@ -22,7 +22,7 @@ Contacto para cualquier pregunta o solicitud sobre privacidad: **taxitycoon.supp
 
 ## 2. Datos del juego en tu dispositivo y en nuestro servidor
 
-El apodo, el nombre de la empresa, el logotipo, el país inicial y todo el progreso se guardan en el archivo de partida de tu dispositivo. Tras tu primer viaje terminado, también se guarda una copia de ese archivo en nuestro servidor, para que puedas recuperar tu progreso al reinstalar el Juego o en otro teléfono. Desinstalar el Juego borra el archivo del dispositivo, no la copia del servidor: consulta [Borrar tus datos](/delete-data/).
+El apodo, el nombre de la empresa, el logotipo, el país inicial y todo el progreso se guardan en el archivo de partida de tu dispositivo. Tras tu primer viaje terminado, también se guarda una copia de ese archivo en nuestro servidor, para que puedas recuperar tu progreso al reinstalar el Juego o en otro teléfono. Desinstalar el Juego borra el archivo del dispositivo, no la copia del servidor: consulta [Borrar tus datos](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Datos que recopilamos y por qué
 
@@ -69,7 +69,7 @@ Las partidas en la nube las gestiona Cloudflare, Inc., que puede tratar datos en
 
 ## 7. Tus derechos
 
-Según dónde vivas (por ejemplo, en virtud del RGPD o del RGPD del Reino Unido), tienes derecho a acceder a tus datos, rectificarlos o suprimirlos, a limitar su tratamiento u oponerte a él, a la portabilidad de los datos y a retirar tu consentimiento en cualquier momento (la retirada no afecta al tratamiento anterior). Escribe a **taxitycoon.support@gmail.com**. Es posible que te pidamos tu ID de jugador (en Ajustes) o datos que nos permitan encontrar tu información. Respondemos en el plazo de un mes. Para borrar tu cuenta y tus partidas en la nube, usa **Ajustes → Datos → Solicitar borrado de datos** o sigue [estos pasos](/delete-data/).
+Según dónde vivas (por ejemplo, en virtud del RGPD o del RGPD del Reino Unido), tienes derecho a acceder a tus datos, rectificarlos o suprimirlos, a limitar su tratamiento u oponerte a él, a la portabilidad de los datos y a retirar tu consentimiento en cualquier momento (la retirada no afecta al tratamiento anterior). Escribe a **taxitycoon.support@gmail.com**. Es posible que te pidamos tu ID de jugador (en Ajustes) o datos que nos permitan encontrar tu información. Respondemos en el plazo de un mes. Para borrar tu cuenta y tus partidas en la nube, usa **Ajustes → Datos → Solicitar borrado de datos** o sigue [estos pasos](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 También tienes derecho a presentar una reclamación ante una autoridad de protección de datos, en particular en el país donde vives.
 

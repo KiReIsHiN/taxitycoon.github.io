@@ -22,7 +22,7 @@ Kontak untuk setiap pertanyaan atau permintaan terkait privasi: **taxitycoon.sup
 
 ## 2. Data game di perangkatmu dan di server kami
 
-Nama panggilan, nama perusahaan, logo, negara awal, dan seluruh progres disimpan dalam file simpanan di perangkatmu. Setelah perjalanan pertama selesai, salinan file ini juga disimpan di server kami agar kamu bisa memulihkan progres setelah memasang ulang Game atau di ponsel lain. Mencopot Game menghapus file di perangkat, bukan salinan di server: lihat [Hapus datamu](/delete-data/).
+Nama panggilan, nama perusahaan, logo, negara awal, dan seluruh progres disimpan dalam file simpanan di perangkatmu. Setelah perjalanan pertama selesai, salinan file ini juga disimpan di server kami agar kamu bisa memulihkan progres setelah memasang ulang Game atau di ponsel lain. Mencopot Game menghapus file di perangkat, bukan salinan di server: lihat [Hapus datamu](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Data yang kami kumpulkan dan alasannya
 
@@ -69,7 +69,7 @@ Simpanan cloud ditangani oleh Cloudflare, Inc., yang dapat memproses data di Ame
 
 ## 7. Hak-hakmu
 
-Tergantung tempat tinggalmu (misalnya berdasarkan GDPR, UK GDPR, atau UU PDP di Indonesia), kamu berhak mengakses, memperbaiki, atau menghapus datamu, membatasi atau menolak pemrosesannya, atas portabilitas data, dan menarik persetujuanmu kapan saja (penarikan tidak memengaruhi pemrosesan sebelumnya). Tulis ke **taxitycoon.support@gmail.com**. Kami mungkin meminta ID pemainmu (di Pengaturan) atau detail yang memungkinkan kami menemukan datamu. Kami menjawab dalam waktu satu bulan. Untuk menghapus akun dan simpanan cloud, buka **Pengaturan → Data → Minta penghapusan data** atau ikuti [langkah-langkah ini](/delete-data/).
+Tergantung tempat tinggalmu (misalnya berdasarkan GDPR, UK GDPR, atau UU PDP di Indonesia), kamu berhak mengakses, memperbaiki, atau menghapus datamu, membatasi atau menolak pemrosesannya, atas portabilitas data, dan menarik persetujuanmu kapan saja (penarikan tidak memengaruhi pemrosesan sebelumnya). Tulis ke **taxitycoon.support@gmail.com**. Kami mungkin meminta ID pemainmu (di Pengaturan) atau detail yang memungkinkan kami menemukan datamu. Kami menjawab dalam waktu satu bulan. Untuk menghapus akun dan simpanan cloud, buka **Pengaturan → Data → Minta penghapusan data** atau ikuti [langkah-langkah ini](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Kamu juga berhak mengajukan pengaduan kepada otoritas perlindungan data, terutama di negara tempat kamu tinggal.
 

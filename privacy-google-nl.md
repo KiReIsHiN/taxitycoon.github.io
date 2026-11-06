@@ -22,7 +22,7 @@ Contact voor alle vragen en verzoeken over privacy: **taxitycoon.support@gmail.c
 
 ## 2. Spelgegevens op je toestel en op onze server
 
-De bijnaam, bedrijfsnaam, het logo, het startland en alle voortgang worden opgeslagen in het opslagbestand op je toestel. Na je eerste voltooide rit wordt ook een kopie van dit bestand op onze server bewaard, zodat je je voortgang terugkrijgt na een herinstallatie of op een andere telefoon. De Game verwijderen wist het bestand op je toestel, niet de kopie op de server: zie [Je gegevens wissen](/delete-data/).
+De bijnaam, bedrijfsnaam, het logo, het startland en alle voortgang worden opgeslagen in het opslagbestand op je toestel. Na je eerste voltooide rit wordt ook een kopie van dit bestand op onze server bewaard, zodat je je voortgang terugkrijgt na een herinstallatie of op een andere telefoon. De Game verwijderen wist het bestand op je toestel, niet de kopie op de server: zie [Je gegevens wissen](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Welke gegevens we verzamelen en waarom
 
@@ -69,7 +69,7 @@ Cloudopslag wordt verzorgd door Cloudflare, Inc., dat gegevens kan verwerken in 
 
 ## 7. Jouw rechten
 
-Afhankelijk van waar je woont (bijvoorbeeld onder de AVG of de UK GDPR) heb je het recht op inzage, rectificatie of wissing van je gegevens, op beperking van of bezwaar tegen de verwerking, op overdraagbaarheid van gegevens, en het recht om je toestemming op elk moment in te trekken (intrekking heeft geen invloed op eerdere verwerking). Schrijf naar **taxitycoon.support@gmail.com**. We kunnen je vragen om je speler-ID (in Instellingen) of om gegevens waarmee we je informatie kunnen vinden. We antwoorden binnen een maand. Om je account en cloudopslag te wissen, gebruik je **Instellingen → Gegevens → Gegevens laten wissen** of volg je [deze stappen](/delete-data/).
+Afhankelijk van waar je woont (bijvoorbeeld onder de AVG of de UK GDPR) heb je het recht op inzage, rectificatie of wissing van je gegevens, op beperking van of bezwaar tegen de verwerking, op overdraagbaarheid van gegevens, en het recht om je toestemming op elk moment in te trekken (intrekking heeft geen invloed op eerdere verwerking). Schrijf naar **taxitycoon.support@gmail.com**. We kunnen je vragen om je speler-ID (in Instellingen) of om gegevens waarmee we je informatie kunnen vinden. We antwoorden binnen een maand. Om je account en cloudopslag te wissen, gebruik je **Instellingen → Gegevens → Gegevens laten wissen** of volg je [deze stappen](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Je hebt ook het recht een klacht in te dienen bij een toezichthouder voor gegevensbescherming, met name in het land waar je woont (in Nederland de Autoriteit Persoonsgegevens).
 

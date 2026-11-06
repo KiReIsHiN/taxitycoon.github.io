@@ -22,7 +22,7 @@ Kontakt für alle Fragen und Anfragen zum Datenschutz: **taxitycoon.support@gmai
 
 ## 2. Spieldaten auf deinem Gerät und auf unserem Server
 
-Spitzname, Firmenname, Logo, Startland und der gesamte Spielfortschritt werden in der Spielstanddatei auf deinem Gerät gespeichert. Nach deiner ersten beendeten Fahrt wird eine Kopie dieser Datei auch auf unserem Server gespeichert, damit du deinen Fortschritt nach einer Neuinstallation oder auf einem anderen Handy zurückbekommst. Das Deinstallieren des Spiels löscht die Datei auf dem Gerät, nicht die Kopie auf dem Server: siehe [Daten löschen](/delete-data/).
+Spitzname, Firmenname, Logo, Startland und der gesamte Spielfortschritt werden in der Spielstanddatei auf deinem Gerät gespeichert. Nach deiner ersten beendeten Fahrt wird eine Kopie dieser Datei auch auf unserem Server gespeichert, damit du deinen Fortschritt nach einer Neuinstallation oder auf einem anderen Handy zurückbekommst. Das Deinstallieren des Spiels löscht die Datei auf dem Gerät, nicht die Kopie auf dem Server: siehe [Daten löschen](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Welche Daten wir erheben und warum
 
@@ -69,7 +69,7 @@ Cloud-Spielstände werden von Cloudflare, Inc. verarbeitet, die Daten in den USA
 
 ## 7. Deine Rechte
 
-Je nachdem, wo du lebst (zum Beispiel nach der DSGVO oder der UK GDPR), hast du das Recht auf Auskunft, Berichtigung oder Löschung deiner Daten, auf Einschränkung der Verarbeitung oder Widerspruch dagegen, auf Datenübertragbarkeit sowie das Recht, deine Einwilligung jederzeit zu widerrufen (der Widerruf berührt die frühere Verarbeitung nicht). Schreib an **taxitycoon.support@gmail.com**. Wir bitten dich eventuell um deine Spieler-ID (in den Einstellungen) oder um Angaben, mit denen wir deine Daten finden können. Wir antworten innerhalb eines Monats. Um dein Konto und deine Cloud-Spielstände zu löschen, nutze **Einstellungen → Daten → Datenlöschung anfordern** oder folge [diesen Schritten](/delete-data/).
+Je nachdem, wo du lebst (zum Beispiel nach der DSGVO oder der UK GDPR), hast du das Recht auf Auskunft, Berichtigung oder Löschung deiner Daten, auf Einschränkung der Verarbeitung oder Widerspruch dagegen, auf Datenübertragbarkeit sowie das Recht, deine Einwilligung jederzeit zu widerrufen (der Widerruf berührt die frühere Verarbeitung nicht). Schreib an **taxitycoon.support@gmail.com**. Wir bitten dich eventuell um deine Spieler-ID (in den Einstellungen) oder um Angaben, mit denen wir deine Daten finden können. Wir antworten innerhalb eines Monats. Um dein Konto und deine Cloud-Spielstände zu löschen, nutze **Einstellungen → Daten → Datenlöschung anfordern** oder folge [diesen Schritten](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Du hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren, insbesondere in dem Land, in dem du lebst.
 

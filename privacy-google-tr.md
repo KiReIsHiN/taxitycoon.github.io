@@ -22,7 +22,7 @@ Gizlilikle ilgili tüm soru ve talepler için iletişim: **taxitycoon.support@gm
 
 ## 2. Cihazındaki ve sunucumuzdaki oyun verileri
 
-Takma ad, şirket adı, logo, başlangıç ülkesi ve tüm ilerleme cihazındaki kayıt dosyasında saklanır. İlk yolculuğunu tamamladıktan sonra, yeniden yükleme sonrasında veya başka bir telefonda ilerlemeni geri alabilmen için bu dosyanın bir kopyası sunucumuzda da saklanır. Oyunu kaldırmak cihazdaki dosyayı siler, sunucudaki kopyayı silmez: bkz. [Verilerini sil](/delete-data/).
+Takma ad, şirket adı, logo, başlangıç ülkesi ve tüm ilerleme cihazındaki kayıt dosyasında saklanır. İlk yolculuğunu tamamladıktan sonra, yeniden yükleme sonrasında veya başka bir telefonda ilerlemeni geri alabilmen için bu dosyanın bir kopyası sunucumuzda da saklanır. Oyunu kaldırmak cihazdaki dosyayı siler, sunucudaki kopyayı silmez: bkz. [Verilerini sil](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Hangi verileri neden topluyoruz
 
@@ -69,7 +69,7 @@ Bulut kayıtlarını, verileri ABD ve diğer ülkelerde işleyebilen Cloudflare,
 
 ## 7. Hakların
 
-Nerede yaşadığına bağlı olarak (örneğin GDPR, UK GDPR veya Türkiye'de KVKK kapsamında) verilerine erişme, bunları düzeltme veya silme, işlenmesini kısıtlama veya itiraz etme, veri taşınabilirliği ve rızanı istediğin zaman geri çekme hakkına sahipsin (geri çekme, önceki işlemeyi etkilemez). **taxitycoon.support@gmail.com** adresine yaz. Oyuncu kimliğini (Ayarlar'da) veya verilerini bulmamızı sağlayacak bilgileri isteyebiliriz. Bir ay içinde yanıt veririz. Hesabını ve bulut kayıtlarını silmek için **Ayarlar → Veriler → Veri silme talebi** bölümünü kullan veya [bu adımları](/delete-data/) izle.
+Nerede yaşadığına bağlı olarak (örneğin GDPR, UK GDPR veya Türkiye'de KVKK kapsamında) verilerine erişme, bunları düzeltme veya silme, işlenmesini kısıtlama veya itiraz etme, veri taşınabilirliği ve rızanı istediğin zaman geri çekme hakkına sahipsin (geri çekme, önceki işlemeyi etkilemez). **taxitycoon.support@gmail.com** adresine yaz. Oyuncu kimliğini (Ayarlar'da) veya verilerini bulmamızı sağlayacak bilgileri isteyebiliriz. Bir ay içinde yanıt veririz. Hesabını ve bulut kayıtlarını silmek için **Ayarlar → Veriler → Veri silme talebi** bölümünü kullan veya [bu adımları](https://kireishin.github.io/taxitycoon.github.io/delete-data/) izle.
 
 Ayrıca, özellikle yaşadığın ülkedeki bir veri koruma otoritesine şikâyette bulunma hakkın da vardır.
 

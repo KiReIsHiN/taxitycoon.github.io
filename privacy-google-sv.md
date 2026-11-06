@@ -22,7 +22,7 @@ Kontakt för alla frågor och begäranden om integritet: **taxitycoon.support@gm
 
 ## 2. Speldata på din enhet och på vår server
 
-Smeknamn, företagsnamn, logotyp, startland och alla framsteg sparas i sparfilen på din enhet. Efter din första avslutade körning sparas också en kopia av filen på vår server, så att du kan få tillbaka dina framsteg efter en ominstallation eller på en annan telefon. Att avinstallera Spelet raderar filen på enheten, inte kopian på servern: se [Radera dina uppgifter](/delete-data/).
+Smeknamn, företagsnamn, logotyp, startland och alla framsteg sparas i sparfilen på din enhet. Efter din första avslutade körning sparas också en kopia av filen på vår server, så att du kan få tillbaka dina framsteg efter en ominstallation eller på en annan telefon. Att avinstallera Spelet raderar filen på enheten, inte kopian på servern: se [Radera dina uppgifter](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Uppgifter vi samlar in och varför
 
@@ -69,7 +69,7 @@ Molnsparningar hanteras av Cloudflare, Inc., som kan behandla uppgifter i USA oc
 
 ## 7. Dina rättigheter
 
-Beroende på var du bor (till exempel enligt GDPR eller UK GDPR) har du rätt att få tillgång till, rätta eller radera dina uppgifter, att begränsa eller invända mot behandlingen, till dataportabilitet och att när som helst återkalla ditt samtycke (återkallandet påverkar inte tidigare behandling). Skriv till **taxitycoon.support@gmail.com**. Vi kan be om ditt spelar-ID (i Inställningar) eller uppgifter som hjälper oss att hitta dina data. Vi svarar inom en månad. För att radera ditt konto och dina molnsparningar, använd **Inställningar → Data → Begär radering av data** eller följ [de här stegen](/delete-data/).
+Beroende på var du bor (till exempel enligt GDPR eller UK GDPR) har du rätt att få tillgång till, rätta eller radera dina uppgifter, att begränsa eller invända mot behandlingen, till dataportabilitet och att när som helst återkalla ditt samtycke (återkallandet påverkar inte tidigare behandling). Skriv till **taxitycoon.support@gmail.com**. Vi kan be om ditt spelar-ID (i Inställningar) eller uppgifter som hjälper oss att hitta dina data. Vi svarar inom en månad. För att radera ditt konto och dina molnsparningar, använd **Inställningar → Data → Begär radering av data** eller följ [de här stegen](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Du har också rätt att lämna in ett klagomål till en dataskyddsmyndighet, särskilt i landet där du bor (i Sverige Integritetsskyddsmyndigheten, IMY).
 

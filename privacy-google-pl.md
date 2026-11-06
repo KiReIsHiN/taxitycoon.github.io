@@ -22,7 +22,7 @@ Kontakt we wszystkich sprawach i wnioskach dotyczących prywatności: **taxityco
 
 ## 2. Dane gry na Twoim urządzeniu i na naszym serwerze
 
-Pseudonim, nazwa firmy, logo, kraj startowy i cały postęp są przechowywane w pliku zapisu na Twoim urządzeniu. Po pierwszym ukończonym kursie kopia tego pliku jest przechowywana także na naszym serwerze, aby można było odzyskać postęp po ponownej instalacji lub na innym telefonie. Odinstalowanie Gry usuwa plik z urządzenia, ale nie kopię na serwerze: zobacz [Usuwanie danych](/delete-data/).
+Pseudonim, nazwa firmy, logo, kraj startowy i cały postęp są przechowywane w pliku zapisu na Twoim urządzeniu. Po pierwszym ukończonym kursie kopia tego pliku jest przechowywana także na naszym serwerze, aby można było odzyskać postęp po ponownej instalacji lub na innym telefonie. Odinstalowanie Gry usuwa plik z urządzenia, ale nie kopię na serwerze: zobacz [Usuwanie danych](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Jakie dane zbieramy i dlaczego
 
@@ -69,7 +69,7 @@ Zapisy w chmurze obsługuje Cloudflare, Inc., która może przetwarzać dane w S
 
 ## 7. Twoje prawa
 
-W zależności od miejsca zamieszkania (np. na podstawie RODO lub UK GDPR) masz prawo dostępu do swoich danych, ich sprostowania lub usunięcia, ograniczenia przetwarzania lub sprzeciwu wobec niego, do przenoszenia danych oraz prawo do wycofania zgody w dowolnym momencie (wycofanie nie wpływa na wcześniejsze przetwarzanie). Napisz na **taxitycoon.support@gmail.com**. Możemy poprosić o ID gracza (w Ustawieniach) lub informacje, które pozwolą odnaleźć Twoje dane. Odpowiadamy w ciągu jednego miesiąca. Aby usunąć konto i zapisy w chmurze, użyj **Ustawienia → Dane → Poproś o usunięcie danych** lub wykonaj [te kroki](/delete-data/).
+W zależności od miejsca zamieszkania (np. na podstawie RODO lub UK GDPR) masz prawo dostępu do swoich danych, ich sprostowania lub usunięcia, ograniczenia przetwarzania lub sprzeciwu wobec niego, do przenoszenia danych oraz prawo do wycofania zgody w dowolnym momencie (wycofanie nie wpływa na wcześniejsze przetwarzanie). Napisz na **taxitycoon.support@gmail.com**. Możemy poprosić o ID gracza (w Ustawieniach) lub informacje, które pozwolą odnaleźć Twoje dane. Odpowiadamy w ciągu jednego miesiąca. Aby usunąć konto i zapisy w chmurze, użyj **Ustawienia → Dane → Poproś o usunięcie danych** lub wykonaj [te kroki](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Masz również prawo wnieść skargę do organu ochrony danych, w szczególności w kraju, w którym mieszkasz (w Polsce — do Prezesa UODO).
 

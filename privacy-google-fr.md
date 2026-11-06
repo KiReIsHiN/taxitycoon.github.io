@@ -22,7 +22,7 @@ Contact pour toute question ou demande relative à la vie privée : **taxitycoon
 
 ## 2. Données de jeu sur votre appareil et sur notre serveur
 
-Le pseudo, le nom de l'entreprise, le logo, le pays de départ et toute la progression sont enregistrés dans le fichier de sauvegarde de votre appareil. Après votre première course terminée, une copie de ce fichier est aussi conservée sur notre serveur, pour que vous puissiez récupérer votre progression après une réinstallation ou sur un autre téléphone. Désinstaller le Jeu supprime le fichier de l'appareil, pas la copie du serveur : voir [Supprimer vos données](/delete-data/).
+Le pseudo, le nom de l'entreprise, le logo, le pays de départ et toute la progression sont enregistrés dans le fichier de sauvegarde de votre appareil. Après votre première course terminée, une copie de ce fichier est aussi conservée sur notre serveur, pour que vous puissiez récupérer votre progression après une réinstallation ou sur un autre téléphone. Désinstaller le Jeu supprime le fichier de l'appareil, pas la copie du serveur : voir [Supprimer vos données](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Données que nous collectons et pourquoi
 
@@ -69,7 +69,7 @@ Les sauvegardes en ligne sont gérées par Cloudflare, Inc., qui peut traiter de
 
 ## 7. Vos droits
 
-Selon l'endroit où vous vivez (par exemple en vertu du RGPD ou du RGPD britannique), vous avez le droit d'accéder à vos données, de les rectifier ou de les effacer, de limiter leur traitement ou de vous y opposer, à la portabilité des données, ainsi que de retirer votre consentement à tout moment (le retrait n'affecte pas le traitement antérieur). Écrivez à **taxitycoon.support@gmail.com**. Nous pourrons vous demander votre ID de joueur (dans les Réglages) ou des informations permettant de retrouver vos données. Nous répondons dans un délai d'un mois. Pour supprimer votre compte et vos sauvegardes en ligne, utilisez **Réglages → Données → Demander la suppression des données** ou suivez [ces étapes](/delete-data/).
+Selon l'endroit où vous vivez (par exemple en vertu du RGPD ou du RGPD britannique), vous avez le droit d'accéder à vos données, de les rectifier ou de les effacer, de limiter leur traitement ou de vous y opposer, à la portabilité des données, ainsi que de retirer votre consentement à tout moment (le retrait n'affecte pas le traitement antérieur). Écrivez à **taxitycoon.support@gmail.com**. Nous pourrons vous demander votre ID de joueur (dans les Réglages) ou des informations permettant de retrouver vos données. Nous répondons dans un délai d'un mois. Pour supprimer votre compte et vos sauvegardes en ligne, utilisez **Réglages → Données → Demander la suppression des données** ou suivez [ces étapes](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 Vous avez également le droit d'introduire une réclamation auprès d'une autorité de protection des données, en particulier dans le pays où vous vivez (en France, la CNIL).
 

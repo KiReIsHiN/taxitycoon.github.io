@@ -22,7 +22,7 @@ Contact for any privacy question or request: **taxitycoon.support@gmail.com**
 
 ## 2. Game data on your device and on our server
 
-The nickname, company name, logo, start country and all game progress are stored in the Game's save file on your device. After your first finished ride a copy of this file is also stored on our server, so you can get your progress back after reinstalling the Game or on another phone. Uninstalling the Game deletes the file on your device, not the copy on the server: see [Delete your data](/delete-data/).
+The nickname, company name, logo, start country and all game progress are stored in the Game's save file on your device. After your first finished ride a copy of this file is also stored on our server, so you can get your progress back after reinstalling the Game or on another phone. Uninstalling the Game deletes the file on your device, not the copy on the server: see [Delete your data](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 ## 3. Data we collect and why
 
@@ -69,7 +69,7 @@ Cloud saves are handled by Cloudflare, Inc., which may process data in the Unite
 
 ## 7. Your rights
 
-Depending on where you live (for example under the GDPR or UK GDPR) you have the right to access, correct or delete your data, to restrict or object to its processing, to data portability, and to withdraw your consent at any time (withdrawing does not affect earlier processing). Write to **taxitycoon.support@gmail.com**. We may ask for your player ID (in Settings) or for details that let us find your data. We answer within one month. To delete your account and cloud saves, use **Settings → Data → Request data deletion** or follow [these steps](/delete-data/).
+Depending on where you live (for example under the GDPR or UK GDPR) you have the right to access, correct or delete your data, to restrict or object to its processing, to data portability, and to withdraw your consent at any time (withdrawing does not affect earlier processing). Write to **taxitycoon.support@gmail.com**. We may ask for your player ID (in Settings) or for details that let us find your data. We answer within one month. To delete your account and cloud saves, use **Settings → Data → Request data deletion** or follow [these steps](https://kireishin.github.io/taxitycoon.github.io/delete-data/).
 
 You also have the right to lodge a complaint with a data protection authority, in particular in the country where you live.
 

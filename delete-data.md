@@ -31,7 +31,7 @@ The save file on your phone is not touched: to remove it, use **Settings → Dat
 - Analytics data at Google: up to 2 months, then deleted automatically.
 - Crash reports at Google: up to 90 days.
 - Purchase records needed for accounting: as long as the law requires.
-- Advertising data: according to the rules of the ad networks, see the [Privacy Policy](/privacy-google/).
+- Advertising data: according to the rules of the ad networks, see the [Privacy Policy](https://kireishin.github.io/taxitycoon.github.io/privacy-google/).
 
 ---
 
@@ -61,4 +61,4 @@ The save file on your phone is not touched: to remove it, use **Settings → Dat
 - Данные аналитики у Google: до 2 месяцев, затем удаляются автоматически.
 - Отчёты о сбоях у Google: до 90 дней.
 - Записи о покупках, необходимые для учёта: столько, сколько требует закон.
-- Рекламные данные: по правилам рекламных сетей, см. [Политику конфиденциальности](/privacy-google/ru/).
+- Рекламные данные: по правилам рекламных сетей, см. [Политику конфиденциальности](https://kireishin.github.io/taxitycoon.github.io/privacy-google/ru/).
